@@ -1,0 +1,643 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (rob599_hw2) JobQueued: {'identifier': 'rob599_hw2', 'dependencies': OrderedDict()}
+[0.000179] (rob599_msgs) JobQueued: {'identifier': 'rob599_msgs', 'dependencies': OrderedDict()}
+[0.000242] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000296] (rob599_basic) JobQueued: {'identifier': 'rob599_basic', 'dependencies': OrderedDict([('rob599_msgs', '/home/chelse/ros2_ws/install/rob599_msgs')])}
+[0.000383] (rob599_msgs) JobStarted: {'identifier': 'rob599_msgs'}
+[0.055797] (rob599_hw2) JobStarted: {'identifier': 'rob599_hw2'}
+[0.099371] (-) TimerEvent: {}
+[0.122192] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.176872] (rob599_msgs) JobProgress: {'identifier': 'rob599_msgs', 'progress': 'cmake'}
+[0.178033] (rob599_msgs) JobProgress: {'identifier': 'rob599_msgs', 'progress': 'build'}
+[0.178313] (rob599_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chelse/ros2_ws/build/rob599_msgs', '--', '-j12', '-l12'], 'cwd': '/home/chelse/ros2_ws/build/rob599_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chelse'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chelse/ros2_ws/install/turtlesim/lib:/home/chelse/ros2_ws/install/rob599_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chelse'), ('OLDPWD', '/home/chelse/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1991'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chelse/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chelse'), ('_', '/home/chelse/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chelse'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chelse-G5-5587:@/tmp/.ICE-unix/1965,unix/chelse-G5-5587:/tmp/.ICE-unix/1965'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d30f52e9_0bfa_47e4_877e_e24afeaec5b6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ITX0I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_basic:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chelse/ros2_ws/build/rob599_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/home/chelse/ros2_ws/install/rob599_basic:/opt/ros/humble')]), 'shell': False}
+[0.199518] (-) TimerEvent: {}
+[0.299775] (-) TimerEvent: {}
+[0.400041] (-) TimerEvent: {}
+[0.466457] (rob599_msgs) StdoutLine: {'line': b'[  2%] Built target rob599_msgs__cpp\n'}
+[0.466773] (rob599_msgs) StdoutLine: {'line': b'[ 12%] Built target rob599_msgs__rosidl_generator_c\n'}
+[0.467149] (rob599_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_rob599_msgs\n'}
+[0.467254] (rob599_msgs) StdoutLine: {'line': b'[ 23%] Built target rob599_msgs__rosidl_typesupport_introspection_c\n'}
+[0.467357] (rob599_msgs) StdoutLine: {'line': b'[ 34%] Built target rob599_msgs__rosidl_typesupport_cpp\n'}
+[0.467560] (rob599_msgs) StdoutLine: {'line': b'[ 55%] Built target rob599_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.468013] (rob599_msgs) StdoutLine: {'line': b'[ 55%] Built target rob599_msgs__rosidl_typesupport_c\n'}
+[0.468141] (rob599_msgs) StdoutLine: {'line': b'[ 65%] Built target rob599_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.468341] (rob599_msgs) StdoutLine: {'line': b'[ 76%] Built target rob599_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.468447] (rob599_msgs) StdoutLine: {'line': b'[ 76%] Built target rob599_msgs\n'}
+[0.468722] (rob599_msgs) StdoutLine: {'line': b'[ 78%] Built target rob599_msgs__py\n'}
+[0.468827] (rob599_msgs) StdoutLine: {'line': b'[ 87%] Built target rob599_msgs__rosidl_generator_py\n'}
+[0.468951] (rob599_msgs) StdoutLine: {'line': b'[ 97%] Built target rob599_msgs__rosidl_typesupport_c__pyext\n'}
+[0.469070] (rob599_msgs) StdoutLine: {'line': b'[ 97%] Built target rob599_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.469191] (rob599_msgs) StdoutLine: {'line': b'[100%] Built target rob599_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.469389] (rob599_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.469491] (rob599_msgs) StdoutLine: {'line': b'writing rob599_msgs.egg-info/PKG-INFO\n'}
+[0.469881] (rob599_msgs) StdoutLine: {'line': b'writing dependency_links to rob599_msgs.egg-info/dependency_links.txt\n'}
+[0.470355] (rob599_msgs) StdoutLine: {'line': b'writing top-level names to rob599_msgs.egg-info/top_level.txt\n'}
+[0.470415] (rob599_msgs) StdoutLine: {'line': b"reading manifest file 'rob599_msgs.egg-info/SOURCES.txt'\n"}
+[0.470472] (rob599_msgs) StdoutLine: {'line': b"writing manifest file 'rob599_msgs.egg-info/SOURCES.txt'\n"}
+[0.470528] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.470549] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.470569] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chelse/ros2_ws/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/home/chelse/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chelse'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chelse/ros2_ws/install/turtlesim/lib:/home/chelse/ros2_ws/install/rob599_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chelse'), ('OLDPWD', '/home/chelse/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1991'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chelse/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chelse'), ('_', '/home/chelse/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chelse'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chelse-G5-5587:@/tmp/.ICE-unix/1965,unix/chelse-G5-5587:/tmp/.ICE-unix/1965'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d30f52e9_0bfa_47e4_877e_e24afeaec5b6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ITX0I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_basic:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chelse/ros2_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/home/chelse/ros2_ws/install/rob599_basic:/opt/ros/humble')]), 'shell': False}
+[0.487089] (rob599_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rob599_msgs_egg\n'}
+[0.497798] (rob599_msgs) CommandEnded: {'returncode': 0}
+[0.500110] (-) TimerEvent: {}
+[0.520452] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.522224] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.533756] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.551357] (turtlesim) StdoutLine: {'line': b'[ 22%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.551781] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.552103] (turtlesim) StdoutLine: {'line': b'[ 47%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.552309] (turtlesim) StdoutLine: {'line': b'[ 54%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.552679] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.560895] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.584987] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target mimic\n'}
+[0.585716] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim\n'}
+[0.585913] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[0.587605] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtle_teleop_key\n'}
+[0.596883] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim_node\n'}
+[0.600198] (-) TimerEvent: {}
+[0.605722] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim__py\n'}
+[0.608893] (rob599_msgs) JobProgress: {'identifier': 'rob599_msgs', 'progress': 'install'}
+[0.618552] (rob599_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chelse/ros2_ws/build/rob599_msgs'], 'cwd': '/home/chelse/ros2_ws/build/rob599_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chelse'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chelse/ros2_ws/install/turtlesim/lib:/home/chelse/ros2_ws/install/rob599_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chelse'), ('OLDPWD', '/home/chelse/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1991'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chelse/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chelse'), ('_', '/home/chelse/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chelse'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chelse-G5-5587:@/tmp/.ICE-unix/1965,unix/chelse-G5-5587:/tmp/.ICE-unix/1965'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d30f52e9_0bfa_47e4_877e_e24afeaec5b6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ITX0I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_basic:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chelse/ros2_ws/build/rob599_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/home/chelse/ros2_ws/install/rob599_basic:/opt/ros/humble')]), 'shell': False}
+[0.625458] (rob599_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.625721] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/ament_index/resource_index/rosidl_interfaces/rob599_msgs\n'}
+[0.625943] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs\n'}
+[0.626114] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action\n'}
+[0.626239] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail\n'}
+[0.626350] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__functions.h\n'}
+[0.626462] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__type_support.h\n'}
+[0.626586] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__functions.c\n'}
+[0.626690] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__struct.h\n'}
+[0.626797] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/fibonacci.h\n'}
+[0.626954] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/msg\n'}
+[0.627100] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.627226] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv\n'}
+[0.627330] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/fib_service.h\n'}
+[0.627449] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail\n'}
+[0.627552] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__functions.h\n'}
+[0.627688] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__type_support.h\n'}
+[0.627880] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__functions.c\n'}
+[0.628025] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__functions.c\n'}
+[0.628126] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__functions.h\n'}
+[0.628247] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__struct.h\n'}
+[0.628349] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__type_support.h\n'}
+[0.628448] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__struct.h\n'}
+[0.628568] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/doubler.h\n'}
+[0.628679] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/environment/library_path.sh\n'}
+[0.628873] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/environment/library_path.dsv\n'}
+[0.629068] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/lib/librob599_msgs__rosidl_generator_c.so\n'}
+[0.629207] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs\n'}
+[0.629381] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action\n'}
+[0.629534] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail\n'}
+[0.629638] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[0.629774] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/msg\n'}
+[0.629885] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.629987] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv\n'}
+[0.630151] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail\n'}
+[0.630292] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__rosidl_typesupport_fastrtps_c.h\n'}
+[0.630434] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__rosidl_typesupport_fastrtps_c.h\n'}
+[0.630544] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/lib/librob599_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.630650] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs\n'}
+[0.630760] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action\n'}
+[0.630940] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail\n'}
+[0.631044] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[0.631143] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__type_support.c\n'}
+[0.631262] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/msg\n'}
+[0.631394] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.631529] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv\n'}
+[0.631775] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail\n'}
+[0.631996] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__type_support.c\n'}
+[0.632096] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__rosidl_typesupport_introspection_c.h\n'}
+[0.632190] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__rosidl_typesupport_introspection_c.h\n'}
+[0.632290] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__type_support.c\n'}
+[0.632389] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/lib/librob599_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.632506] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/lib/librob599_msgs__rosidl_typesupport_c.so\n'}
+[0.632610] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs\n'}
+[0.632714] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action\n'}
+[0.632814] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail\n'}
+[0.632907] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__builder.hpp\n'}
+[0.633072] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__traits.hpp\n'}
+[0.633178] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__struct.hpp\n'}
+[0.633274] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/fibonacci.hpp\n'}
+[0.633369] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_generator_py\n'}
+[0.633489] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv\n'}
+[0.633585] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail\n'}
+[0.633682] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__struct.hpp\n'}
+[0.633795] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__traits.hpp\n'}
+[0.633890] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__struct.hpp\n'}
+[0.633990] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__builder.hpp\n'}
+[0.634090] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__builder.hpp\n'}
+[0.634188] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__traits.hpp\n'}
+[0.634284] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/fib_service.hpp\n'}
+[0.634397] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/doubler.hpp\n'}
+[0.634497] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs\n'}
+[0.634596] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action\n'}
+[0.634697] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail\n'}
+[0.634800] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.634902] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/dds_fastrtps\n'}
+[0.634999] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/msg\n'}
+[0.635094] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.635194] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv\n'}
+[0.635292] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail\n'}
+[0.635394] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.635506] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/dds_fastrtps\n'}
+[0.635610] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.635709] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/lib/librob599_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.635809] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs\n'}
+[0.635912] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action\n'}
+[0.636008] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail\n'}
+[0.636097] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.636189] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/action/detail/fibonacci__type_support.cpp\n'}
+[0.636282] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv\n'}
+[0.636372] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail\n'}
+[0.636467] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__type_support.cpp\n'}
+[0.636563] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.636663] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/fib_service__type_support.cpp\n'}
+[0.636762] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/include/rob599_msgs/rob599_msgs/srv/detail/doubler__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.636855] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/lib/librob599_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.636952] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/lib/librob599_msgs__rosidl_typesupport_cpp.so\n'}
+[0.637076] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/environment/pythonpath.sh\n'}
+[0.637181] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/environment/pythonpath.dsv\n'}
+[0.637282] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs-0.1.0-py3.10.egg-info\n'}
+[0.637404] (rob599_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.637539] (rob599_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[0.637660] (rob599_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[0.637779] (rob599_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.637899] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs\n'}
+[0.638019] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/action\n'}
+[0.638166] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/action/_fibonacci_s.c\n'}
+[0.638281] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/action/__init__.py\n'}
+[0.638392] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/action/_fibonacci.py\n'}
+[0.638525] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/rob599_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.638616] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/librob599_msgs__rosidl_generator_py.so\n'}
+[0.638712] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/_rob599_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.638810] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/rob599_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.638909] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/__init__.py\n'}
+[0.639006] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/rob599_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.639111] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/_rob599_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.639209] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/srv\n'}
+[0.639308] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/srv/_doubler.py\n'}
+[0.639403] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/srv/__init__.py\n'}
+[0.639502] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/srv/_fib_service_s.c\n'}
+[0.639602] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/srv/_doubler_s.c\n'}
+[0.639699] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/srv/_fib_service.py\n'}
+[0.639795] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/_rob599_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.651037] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.651302] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.651440] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.662847] (rob599_msgs) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs'...\n"}
+[0.663042] (rob599_msgs) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/action'...\n"}
+[0.663166] (rob599_msgs) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/srv'...\n"}
+[0.666697] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/rob599_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.667010] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/rob599_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.667318] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages/rob599_msgs/rob599_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.667630] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/lib/librob599_msgs__rosidl_generator_py.so\n'}
+[0.667825] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/srv/Doubler.idl\n'}
+[0.667948] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/srv/FibService.idl\n'}
+[0.668104] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/action/Fibonacci.idl\n'}
+[0.668304] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/srv/Doubler.srv\n'}
+[0.668476] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/srv/Doubler_Request.msg\n'}
+[0.668613] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/srv/Doubler_Response.msg\n'}
+[0.668743] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/srv/FibService.srv\n'}
+[0.668882] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/srv/FibService_Request.msg\n'}
+[0.669046] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/srv/FibService_Response.msg\n'}
+[0.669199] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/action/Fibonacci.action\n'}
+[0.669333] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/ament_index/resource_index/package_run_dependencies/rob599_msgs\n'}
+[0.669488] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/ament_index/resource_index/parent_prefix_path/rob599_msgs\n'}
+[0.669625] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/environment/ament_prefix_path.sh\n'}
+[0.669741] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/environment/ament_prefix_path.dsv\n'}
+[0.669953] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/environment/path.sh\n'}
+[0.670144] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/environment/path.dsv\n'}
+[0.670257] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/local_setup.bash\n'}
+[0.670376] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/local_setup.sh\n'}
+[0.670494] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/local_setup.zsh\n'}
+[0.670605] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/local_setup.dsv\n'}
+[0.670717] (rob599_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.dsv\n'}
+[0.670827] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/ament_index/resource_index/packages/rob599_msgs\n'}
+[0.670946] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_generator_cExport.cmake\n'}
+[0.671057] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.671168] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.671279] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.671393] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.671571] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.671821] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.672164] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.672473] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.672814] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.672969] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.673350] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.673588] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.673826] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.674030] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.674230] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.674433] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/export_rob599_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.674627] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.674766] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.674947] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.675137] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.675334] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.675643] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.675851] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.675992] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgsConfig.cmake\n'}
+[0.676262] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/cmake/rob599_msgsConfig-version.cmake\n'}
+[0.676406] (rob599_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.xml\n'}
+[0.676755] (rob599_msgs) CommandEnded: {'returncode': 0}
+[0.700359] (-) TimerEvent: {}
+[0.789716] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.790583] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.790843] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.791060] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.793368] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.794430] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.798580] (rob599_hw2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rob599_hw2', 'build', '--build-base', '/home/chelse/ros2_ws/build/rob599_hw2/build', 'install', '--record', '/home/chelse/ros2_ws/build/rob599_hw2/install.log', '--single-version-externally-managed'], 'cwd': '/home/chelse/ros2_ws/src/rob599_hw2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chelse', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chelse/ros2_ws/install/turtlesim/lib:/home/chelse/ros2_ws/install/rob599_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chelse', 'OLDPWD': '/home/chelse/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1991', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chelse/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chelse', '_': '/home/chelse/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chelse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chelse-G5-5587:@/tmp/.ICE-unix/1965,unix/chelse-G5-5587:/tmp/.ICE-unix/1965', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d30f52e9_0bfa_47e4_877e_e24afeaec5b6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ITX0I2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_basic:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chelse/ros2_ws/build/rob599_hw2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chelse/ros2_ws/build/rob599_hw2/prefix_override:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2'}, 'shell': False}
+[0.800435] (-) TimerEvent: {}
+[0.821319] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.832960] (turtlesim) CommandEnded: {'returncode': 0}
+[0.900613] (-) TimerEvent: {}
+[0.910529] (rob599_msgs) JobEnded: {'identifier': 'rob599_msgs', 'rc': 0}
+[0.911090] (rob599_basic) JobStarted: {'identifier': 'rob599_basic'}
+[1.000729] (-) TimerEvent: {}
+[1.008035] (rob599_hw2) StdoutLine: {'line': b'running egg_info\n'}
+[1.008650] (rob599_hw2) StdoutLine: {'line': b'writing ../../build/rob599_hw2/rob599_hw2.egg-info/PKG-INFO\n'}
+[1.008815] (rob599_hw2) StdoutLine: {'line': b'writing dependency_links to ../../build/rob599_hw2/rob599_hw2.egg-info/dependency_links.txt\n'}
+[1.008920] (rob599_hw2) StdoutLine: {'line': b'writing entry points to ../../build/rob599_hw2/rob599_hw2.egg-info/entry_points.txt\n'}
+[1.009095] (rob599_hw2) StdoutLine: {'line': b'writing requirements to ../../build/rob599_hw2/rob599_hw2.egg-info/requires.txt\n'}
+[1.009239] (rob599_hw2) StdoutLine: {'line': b'writing top-level names to ../../build/rob599_hw2/rob599_hw2.egg-info/top_level.txt\n'}
+[1.011561] (rob599_hw2) StdoutLine: {'line': b"reading manifest file '../../build/rob599_hw2/rob599_hw2.egg-info/SOURCES.txt'\n"}
+[1.011817] (rob599_hw2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.012903] (rob599_hw2) StdoutLine: {'line': b"writing manifest file '../../build/rob599_hw2/rob599_hw2.egg-info/SOURCES.txt'\n"}
+[1.013133] (rob599_hw2) StdoutLine: {'line': b'running build\n'}
+[1.013208] (rob599_hw2) StdoutLine: {'line': b'running build_py\n'}
+[1.013364] (rob599_hw2) StdoutLine: {'line': b'copying rob599_hw2/twist_tester.py -> /home/chelse/ros2_ws/build/rob599_hw2/build/lib/rob599_hw2\n'}
+[1.013643] (rob599_hw2) StdoutLine: {'line': b'running install\n'}
+[1.013807] (rob599_hw2) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.013904] (rob599_hw2) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.014058] (rob599_hw2) StdoutLine: {'line': b'running install_lib\n'}
+[1.014734] (rob599_hw2) StdoutLine: {'line': b'copying /home/chelse/ros2_ws/build/rob599_hw2/build/lib/rob599_hw2/twist_tester.py -> /home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages/rob599_hw2\n'}
+[1.015314] (rob599_hw2) StdoutLine: {'line': b'byte-compiling /home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages/rob599_hw2/twist_tester.py to twist_tester.cpython-310.pyc\n'}
+[1.015914] (rob599_hw2) StdoutLine: {'line': b'running install_data\n'}
+[1.016387] (rob599_hw2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.017831] (rob599_hw2) StdoutLine: {'line': b"removing '/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages/rob599_hw2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.018103] (rob599_hw2) StdoutLine: {'line': b'Copying ../../build/rob599_hw2/rob599_hw2.egg-info to /home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages/rob599_hw2-0.0.0-py3.10.egg-info\n'}
+[1.018834] (rob599_hw2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.037646] (rob599_hw2) StdoutLine: {'line': b'Installing speed_limiter script to /home/chelse/ros2_ws/install/rob599_hw2/lib/rob599_hw2\n'}
+[1.037864] (rob599_hw2) StdoutLine: {'line': b'Installing speed_publisher script to /home/chelse/ros2_ws/install/rob599_hw2/lib/rob599_hw2\n'}
+[1.037951] (rob599_hw2) StdoutLine: {'line': b'Installing twist_tester script to /home/chelse/ros2_ws/install/rob599_hw2/lib/rob599_hw2\n'}
+[1.038164] (rob599_hw2) StdoutLine: {'line': b"writing list of installed files to '/home/chelse/ros2_ws/build/rob599_hw2/install.log'\n"}
+[1.100841] (-) TimerEvent: {}
+[1.201121] (-) TimerEvent: {}
+[1.268865] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[1.269609] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chelse/ros2_ws/build/turtlesim'], 'cwd': '/home/chelse/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chelse'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chelse/ros2_ws/install/turtlesim/lib:/home/chelse/ros2_ws/install/rob599_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chelse'), ('OLDPWD', '/home/chelse/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1991'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chelse/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chelse'), ('_', '/home/chelse/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chelse'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chelse-G5-5587:@/tmp/.ICE-unix/1965,unix/chelse-G5-5587:/tmp/.ICE-unix/1965'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d30f52e9_0bfa_47e4_877e_e24afeaec5b6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ITX0I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_basic:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chelse/ros2_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/home/chelse/ros2_ws/install/rob599_basic:/opt/ros/humble')]), 'shell': False}
+[1.270438] (rob599_hw2) CommandEnded: {'returncode': 0}
+[1.277349] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.277732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[1.278115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.278702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.278906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.279183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[1.279469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[1.279599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[1.279996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[1.280264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[1.280878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.281123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.281322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[1.281709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[1.282039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[1.282186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[1.282347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[1.282642] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[1.282848] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[1.283076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[1.283267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.283571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[1.283806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[1.284047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.284337] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[1.284851] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.285062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[1.285231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[1.285472] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[1.285647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[1.285852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[1.286028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[1.286232] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[1.286432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[1.286631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[1.286837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[1.287002] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[1.287228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[1.287428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[1.287584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[1.287798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[1.287962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[1.288129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[1.288298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[1.288505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[1.288657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[1.288872] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[1.289079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[1.289248] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[1.289447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[1.289612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[1.289732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[1.289834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[1.290055] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.290231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.290353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.290752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[1.290927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.291126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.291334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.291493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[1.291715] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.291911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.292107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.292302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[1.292476] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[1.292676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[1.292874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[1.293142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[1.293308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[1.293447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.293644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.293785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.293959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[1.294102] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[1.294233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[1.294402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[1.294539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.294700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.294837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[1.294957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[1.295133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[1.295287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[1.295415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[1.295602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[1.295767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[1.295931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[1.296185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.296319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.297438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[1.297545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[1.297843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[1.298008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[1.298126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[1.298220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[1.298316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[1.298407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[1.298499] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[1.298590] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[1.298676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[1.298770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[1.298862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[1.298951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[1.299036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[1.299131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[1.299221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[1.299305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[1.299396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[1.299486] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[1.299577] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.299668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.299756] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.299847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.299966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[1.300148] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.300339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.300503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.300631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[1.300754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.300897] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.301092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.301220] (-) TimerEvent: {}
+[1.301307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.301481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.301619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.301706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.301820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.301945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[1.302085] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.302225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.302378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.302487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.302619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.302768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[1.302858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[1.302985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.303189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.303340] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.303430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[1.303570] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[1.303686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[1.303829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[1.303966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.304072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.304249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[1.304363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[1.304515] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[1.304655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[1.304745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[1.304873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[1.304997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[1.305152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[1.305317] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[1.305446] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[1.305617] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[1.305757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[1.305875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.305989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.306164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.306289] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.306445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[1.306582] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.306712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.306826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.306989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[1.307096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.307231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[1.307365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.307482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.307620] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.307757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[1.307843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.307960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[1.308095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[1.308240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.308371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.308505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.308593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[1.308718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[1.308831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[1.308965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[1.309061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[1.309214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[1.309351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[1.309441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[1.309571] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[1.309684] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[1.309836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[1.309961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[1.310078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[1.310205] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[1.310357] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[1.310499] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[1.310585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.310757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[1.310931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[1.311064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[1.311232] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[1.311370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[1.311538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[1.311642] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[1.311806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[1.311970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.312061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[1.312240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[1.312403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[1.312564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[1.312713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[1.312829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[1.313006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[1.313333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[1.313479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[1.313654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[1.313742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[1.313909] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[1.314060] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[1.314225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.314326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.314487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.314651] (turtlesim) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[1.314814] (turtlesim) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[1.314951] (turtlesim) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[1.315080] (turtlesim) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[1.316787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.317124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.317491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.317781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[1.318054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[1.318498] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[1.318808] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[1.319032] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[1.319171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[1.319390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[1.319639] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[1.319863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[1.320051] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[1.320191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[1.320480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[1.320729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[1.321021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[1.321229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[1.321497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[1.321797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[1.322005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[1.322259] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[1.322585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[1.322782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[1.322977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[1.323134] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[1.323344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[1.323518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[1.323639] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[1.323983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[1.324298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[1.324484] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[1.324694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[1.324854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[1.325155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[1.325384] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[1.325580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[1.325775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[1.325990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[1.326190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[1.326386] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[1.326581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[1.326775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[1.326975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[1.327180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[1.327354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[1.327558] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[1.327873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[1.328013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[1.328118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[1.328281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[1.328445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[1.328574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[1.328734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[1.328911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[1.329166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[1.329329] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[1.329574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[1.329743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[1.330658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.330868] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.330976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.331042] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[1.331133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.331312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.331473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.331572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.331670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[1.331840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.331930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.332131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.332229] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[1.332432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.332656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[1.333087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.333304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[1.333439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.333622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.333754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.333914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.334081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.334166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.334301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[1.334424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[1.334556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[1.363318] (rob599_hw2) JobEnded: {'identifier': 'rob599_hw2', 'rc': 0}
+[1.365834] (turtlesim) CommandEnded: {'returncode': 0}
+[1.401307] (-) TimerEvent: {}
+[1.501492] (-) TimerEvent: {}
+[1.601723] (-) TimerEvent: {}
+[1.699433] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[1.700588] (rob599_basic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/rob599_basic', 'build', '--build-base', '/home/chelse/ros2_ws/build/rob599_basic/build', 'install', '--record', '/home/chelse/ros2_ws/build/rob599_basic/install.log', '--install-scripts', '$base/lib/rob599_basic', '--single-version-externally-managed'], 'cwd': '/home/chelse/ros2_ws/src/rob599r2/rob599_basic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chelse', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chelse/ros2_ws/install/rob599_msgs/lib:/home/chelse/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chelse', 'OLDPWD': '/home/chelse/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1991', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chelse/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chelse', '_': '/home/chelse/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chelse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chelse-G5-5587:@/tmp/.ICE-unix/1965,unix/chelse-G5-5587:/tmp/.ICE-unix/1965', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d30f52e9_0bfa_47e4_877e_e24afeaec5b6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ITX0I2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_basic:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chelse/ros2_ws/build/rob599_basic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chelse/ros2_ws/build/rob599_basic/prefix_override:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_msgs/local/lib/python3.10/dist-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_hw2'}, 'shell': False}
+[1.702169] (-) TimerEvent: {}
+[1.802353] (-) TimerEvent: {}
+[1.893259] (rob599_basic) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.893398] (rob599_basic) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.899714] (rob599_basic) StdoutLine: {'line': b'running egg_info\n'}
+[1.900312] (rob599_basic) StdoutLine: {'line': b'writing ../../../build/rob599_basic/rob599_basic.egg-info/PKG-INFO\n'}
+[1.900539] (rob599_basic) StdoutLine: {'line': b'writing dependency_links to ../../../build/rob599_basic/rob599_basic.egg-info/dependency_links.txt\n'}
+[1.900765] (rob599_basic) StdoutLine: {'line': b'writing entry points to ../../../build/rob599_basic/rob599_basic.egg-info/entry_points.txt\n'}
+[1.900893] (rob599_basic) StdoutLine: {'line': b'writing requirements to ../../../build/rob599_basic/rob599_basic.egg-info/requires.txt\n'}
+[1.901109] (rob599_basic) StdoutLine: {'line': b'writing top-level names to ../../../build/rob599_basic/rob599_basic.egg-info/top_level.txt\n'}
+[1.902446] (rob599_basic) StdoutLine: {'line': b"reading manifest file '../../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'\n"}
+[1.902524] (-) TimerEvent: {}
+[1.902725] (rob599_basic) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.903308] (rob599_basic) StdoutLine: {'line': b"writing manifest file '../../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'\n"}
+[1.903403] (rob599_basic) StdoutLine: {'line': b'running build\n'}
+[1.903476] (rob599_basic) StdoutLine: {'line': b'running build_py\n'}
+[1.904077] (rob599_basic) StdoutLine: {'line': b'running install\n'}
+[1.904259] (rob599_basic) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.904339] (rob599_basic) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.904568] (rob599_basic) StdoutLine: {'line': b'running install_lib\n'}
+[1.905875] (rob599_basic) StdoutLine: {'line': b'running install_data\n'}
+[1.906339] (rob599_basic) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.907725] (rob599_basic) StdoutLine: {'line': b"removing '/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages/rob599_basic-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.908038] (rob599_basic) StdoutLine: {'line': b'Copying ../../../build/rob599_basic/rob599_basic.egg-info to /home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages/rob599_basic-0.0.0-py3.10.egg-info\n'}
+[1.908795] (rob599_basic) StdoutLine: {'line': b'running install_scripts\n'}
+[1.926051] (rob599_basic) StdoutLine: {'line': b'Installing action_client script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.926325] (rob599_basic) StdoutLine: {'line': b'Installing action_server script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.926580] (rob599_basic) StdoutLine: {'line': b'Installing client script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.926687] (rob599_basic) StdoutLine: {'line': b'Installing doubler script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.926766] (rob599_basic) StdoutLine: {'line': b'Installing noiser script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.926833] (rob599_basic) StdoutLine: {'line': b'Installing parameter_demo script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.926895] (rob599_basic) StdoutLine: {'line': b'Installing publisher script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.926981] (rob599_basic) StdoutLine: {'line': b'Installing service script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.927095] (rob599_basic) StdoutLine: {'line': b'Installing subscriber script to /home/chelse/ros2_ws/install/rob599_basic/lib/rob599_basic\n'}
+[1.927443] (rob599_basic) StdoutLine: {'line': b"writing list of installed files to '/home/chelse/ros2_ws/build/rob599_basic/install.log'\n"}
+[1.948860] (rob599_basic) CommandEnded: {'returncode': 0}
+[1.991140] (rob599_basic) JobEnded: {'identifier': 'rob599_basic', 'rc': 0}
+[1.991888] (-) EventReactorShutdown: {}
