@@ -31,7 +31,7 @@ class TwistPublisher(Node):
 		self.pub = self.create_publisher(Twist, 'speed_in', 10)
 		
         # Create a timer for how often to publish Twist messages
-		self.timer = self.create_timer(1, self.publish_twist)
+		self.timer = self.create_timer(0.01, self.publish_twist)
 
 
 
@@ -40,22 +40,15 @@ class TwistPublisher(Node):
 		# Set up a twist msg 
 		msg = Twist()
         
-        # Check if the linear velocity in x, y, and z is greater than the linear_max and if so, set it's value to the linear_max
-		'''
-        msg.linear.x = random.uniform(-100.0,200.0)
-		msg.linear.y = random.uniform(-100.0,200.0)
-		msg.linear.z = random.uniform(-100.0,200.0)
-		msg.angular.x = random.uniform(-100.0,200.0)
-		msg.angular.y = random.uniform(-100.0,200.0)
-		msg.angular.z = random.uniform(-100.0,200.0)
-		'''
+        # Set the linear and angular velocities
+		msg.linear.x = random.uniform(-100.0,300.0)
+		msg.linear.y = random.uniform(-100.0,300.0)
+		msg.linear.z = random.uniform(-100.0,300.0)
+		msg.angular.x = random.uniform(-100.0,300.0)
+		msg.angular.y = random.uniform(-100.0,300.0)
+		msg.angular.z = random.uniform(-100.0,300.0)
+
 		
-		msg.linear.x = 500.0
-		msg.linear.y = 500.0
-		msg.linear.z = 500.0
-		msg.angular.x = 500.0
-		msg.angular.y = 500.0
-		msg.angular.z = 500.0
 			
 		# Republish the message.  Reusing the original message is slightly more efficient
 		# than creating a new one.

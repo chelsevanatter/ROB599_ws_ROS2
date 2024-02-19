@@ -29,7 +29,7 @@ class TwistTesterNode(Node):
 		super().__init__('twist_tester')
 		
         # Create the subscriber.
-		self.sub = self.create_subscription(Twist, 'speed_out', self.callback, 10)
+		self.sub = self.create_subscription(Twist, 'speed_in', self.callback, 10)
 
 		self.received_msgs = 0
 		self.outside_bounds_msgs = 0
