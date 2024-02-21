@@ -16,7 +16,6 @@ from rclpy.node import Node
 # We're going to subscribe to and publish a twist message.
 from geometry_msgs.msg import Twist
 
-import threading
 
 
 class TwistTesterNode(Node):
@@ -33,7 +32,7 @@ class TwistTesterNode(Node):
 
 		self.received_msgs = 0
 		self.outside_bounds_msgs = 0
-		self.lock = threading.Lock()
+
 		# Timer for logging statistics every 30 seconds
 		self.timer = self.create_timer(10, self.log_statistics)
 
@@ -48,25 +47,25 @@ class TwistTesterNode(Node):
 	def callback(self, msg):
 		linear_max = self.get_parameter('linear_max').get_parameter_value().double_value
 		angular_max = self.get_parameter('angular_max').get_parameter_value().double_value
-		with self.lock:
-			self.received_msgs += 1
-			if abs(msg.linear.x) > linear_max or \
-               abs(msg.linear.y) > linear_max or \
-               abs(msg.linear.z) > linear_max or \
-               abs(msg.angular.x) > angular_max or \
-               abs(msg.angular.y) > angular_max or \
-               abs(msg.angular.z) > angular_max:
-				self.outside_bounds_msgs += 1
+		
+		self.received_msgs += 1
+		if abs(msg.linear.x) > linear_max or \
+            abs(msg.linear.y) > linear_max or \
+            abs(msg.linear.z) > linear_max or \
+            abs(msg.angular.x) > angular_max or \
+            abs(msg.angular.y) > angular_max or \
+            abs(msg.angular.z) > angular_max:
+			self.outside_bounds_msgs += 1
+			
 	def log_statistics(self):
-		with self.lock:
-			proportion = 0
-			if self.received_msgs != 0:
-				proportion = self.outside_bounds_msgs / self.received_msgs
-				self.get_logger().info(
-					f"Received {self.received_msgs} messages in the last 30 seconds. "
-					f"Proportion of messages with values outside bounds: {proportion:.2f}"
-					f"Linear max: {self.get_parameter('linear_max').get_parameter_value().double_value}"
-					f"Angular max: {self.get_parameter('angular_max').get_parameter_value().double_value}")
+		proportion = 0
+		if self.received_msgs != 0:
+			proportion = self.outside_bounds_msgs / self.received_msgs
+			self.get_logger().info(
+				f"Received {self.received_msgs} messages in the last 30 seconds. "
+				f"Proportion of messages with values outside bounds: {proportion:.2f}"
+				f"Linear max: {self.get_parameter('linear_max').get_parameter_value().double_value}"
+				f"Angular max: {self.get_parameter('angular_max').get_parameter_value().double_value}")
 
 # This is a general-purpose entry point.	
 def main(args=None):

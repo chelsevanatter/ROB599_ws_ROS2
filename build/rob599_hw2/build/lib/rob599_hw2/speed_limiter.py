@@ -18,6 +18,11 @@ from rclpy.node import Node
 # We're going to subscribe to and publish a twist message.
 from geometry_msgs.msg import Twist
 
+# This gets imports the service from the message package
+from rob599_hw2_msgs.srv import ApplyBrakes
+
+import logging
+
 
 class SpeedLimitingNode(Node):
 	'''
@@ -35,42 +40,101 @@ class SpeedLimitingNode(Node):
 
 		# Create the subscriber.
 		self.sub = self.create_subscription(Twist, 'speed_in', self.callback, 10)
-		
-        # Declare parameters and set default values 
+
+		# Create the service
+		self.apply_brakes_service = self.create_service(ApplyBrakes, 'apply_brakes', self.apply_brakes_callback)
+
+		self.with_brakes = False  # Track if brakes are applied
+
+		# Declare parameters and set default values 
 		self.declare_parameters(
 			namespace = "",
             parameters = [
                 ('linear_max', 100.0),
-                ('angular_max', 100.0)])
-	
+                ('angular_max', 100.0),
+				('with_watchdog',True),
+				('watchdog_period',20)
+				])
+		
+        # Initialize watchdog timer variables
+		self.with_watchdog = self.get_parameter('with_watchdog').get_parameter_value().bool_value
+		self.watchdog_period = self.get_parameter('watchdog_period').get_parameter_value().double_value
+		self.watchdog_timer = None
+		
+        # Start the watchdog timer
+		if self.with_watchdog:
+			self.start_watchdog_timer()
+			
+    # This function creates the watchdog timer        
+	def start_watchdog_timer(self):
+		if self.watchdog_timer is not None:
+			self.watchdog_timer.cancel()
+		self.watchdog_timer = self.create_timer(self.watchdog_period, self.watchdog_callback)
+
+		
     # This callback will be called whenever we receive a new message on the topic.
 	def callback(self, msg):
-		linear_max = self.get_parameter('linear_max').get_parameter_value().double_value
-		angular_max = self.get_parameter('angular_max').get_parameter_value().double_value
-		#self.get_logger().info(
-		#			f"Maximum Linear Speed: {linear_max}. "
-		#			f"Maximum Angular Speed: {angular_max}")
-
-
-        # Check if the linear velocity in x, y, and z is greater than the linear_max and if so, set it's value to the linear_max
-		if abs(msg.linear.x) > linear_max:
-			msg.linear.x = linear_max if msg.linear.x > 0.0 else -linear_max
-		if abs(msg.linear.y) > linear_max:
-			msg.linear.y = linear_max if msg.linear.y > 0.0 else -linear_max
-		if abs(msg.linear.z) > linear_max:
-			msg.linear.z = linear_max if msg.linear.z > 0.0 else -linear_max
+		if not self.with_brakes: # Check if brakes are applied
+			linear_max = self.get_parameter('linear_max').get_parameter_value().double_value
+			angular_max = self.get_parameter('angular_max').get_parameter_value().double_value
 			
-        # Check if the angular velocity in x, y, and z is greater than the angular_max and if so, set it's value to the angular_max
-		if abs(msg.angular.x) > angular_max:
-			msg.angular.x = angular_max if msg.angular.x > 0.0 else -angular_max
-		if abs(msg.angular.y) > angular_max:
-			msg.angular.y = angular_max if msg.angular.y > 0.0 else -angular_max
-		if abs(msg.angular.z) > angular_max:
-			msg.angular.z = angular_max if msg.angular.z > 0.0 else -angular_max
+			# Reset the watchdog timer
+			if self.with_watchdog:
+				self.start_watchdog_timer()
 
-		# Republish the message.  Reusing the original message is slightly more efficient
-		# than creating a new one.
-		self.pub.publish(msg)
+			# Check if the linear velocity in x, y, and z is greater than the linear_max and if so, set it's value to the linear_max
+			if abs(msg.linear.x) > linear_max:
+				msg.linear.x = linear_max if msg.linear.x > 0.0 else -linear_max
+			if abs(msg.linear.y) > linear_max:
+				msg.linear.y = linear_max if msg.linear.y > 0.0 else -linear_max
+			if abs(msg.linear.z) > linear_max:
+				msg.linear.z = linear_max if msg.linear.z > 0.0 else -linear_max
+				
+			# Check if the angular velocity in x, y, and z is greater than the angular_max and if so, set it's value to the angular_max
+			if abs(msg.angular.x) > angular_max:
+				msg.angular.x = angular_max if msg.angular.x > 0.0 else -angular_max
+			if abs(msg.angular.y) > angular_max:
+				msg.angular.y = angular_max if msg.angular.y > 0.0 else -angular_max
+			if abs(msg.angular.z) > angular_max:
+				msg.angular.z = angular_max if msg.angular.z > 0.0 else -angular_max
+
+			# Republish the message.  Reusing the original message is slightly more efficient
+			# than creating a new one.
+			self.pub.publish(msg)
+		else:
+			zero_msg = Twist()
+	
+			# Publish zero-velocity Twist message
+			zero_msg.linear.x = 0.0
+			zero_msg.linear.y = 0.0
+			zero_msg.linear.z = 0.0
+			zero_msg.angular.x = 0.0
+			zero_msg.angular.y = 0.0
+			zero_msg.angular.z = 0.0
+
+			self.get_logger().info(
+				f"Published zero message because brakes were applied. ")
+			self.pub.publish(zero_msg)
+
+	# Watchdog timer callback function
+	def watchdog_callback(self):
+		zero_msg = Twist()
+	
+        # Publish zero-velocity Twist message
+		zero_msg.linear.x = 0.0
+		zero_msg.linear.y = 0.0
+		zero_msg.linear.z = 0.0
+		zero_msg.angular.x = 0.0
+		zero_msg.angular.y = 0.0
+		zero_msg.angular.z = 0.0
+		#self.get_logger().info(
+		#		f"Published zero message because of watdog timer timeout.")
+
+	def apply_brakes_callback(self, request, response):
+        # Update the state of brakes based on the request
+		self.with_brakes = request.brakes
+		response.success = True  # Indicate success
+		return response
 
 # This is a general-purpose entry point.	
 def main(args=None):

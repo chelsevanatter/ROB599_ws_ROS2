@@ -31,7 +31,7 @@ class TwistPublisher(Node):
 		self.pub = self.create_publisher(Twist, 'speed_in', 10)
 		
         # Create a timer for how often to publish Twist messages
-		self.timer = self.create_timer(0.01, self.publish_twist)
+		self.timer = self.create_timer(1, self.publish_twist)
 
 
 
@@ -41,12 +41,12 @@ class TwistPublisher(Node):
 		msg = Twist()
         
         # Set the linear and angular velocities
-		msg.linear.x = random.uniform(-100.0,300.0)
-		msg.linear.y = random.uniform(-100.0,300.0)
-		msg.linear.z = random.uniform(-100.0,300.0)
-		msg.angular.x = random.uniform(-100.0,300.0)
-		msg.angular.y = random.uniform(-100.0,300.0)
-		msg.angular.z = random.uniform(-100.0,300.0)
+		msg.linear.x = random.uniform(0.0,200.0)
+		msg.linear.y = random.uniform(0.0,200.0)
+		msg.linear.z = random.uniform(0.0,200.0)
+		msg.angular.x = random.uniform(0.0,200.0)
+		msg.angular.y = random.uniform(0.0,200.0)
+		msg.angular.z = random.uniform(0.0,200.0)
 
 		
 			

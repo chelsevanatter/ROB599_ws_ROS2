@@ -1,0 +1,429 @@
+[0.901s] DEBUG:colcon:Command line arguments: ['/home/chelse/.local/bin/colcon', 'build']
+[0.901s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc4146435b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc414640400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc414640400>>)
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.945s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chelse/ros2_ws'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2) by extension 'ros'
+[0.961s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rob599_hw2' with type 'ros.ament_python' and name 'rob599_hw2'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_hw2_msgs) by extension 'ros'
+[0.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rob599_hw2_msgs' with type 'ros.ament_cmake' and name 'rob599_hw2_msgs'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extension 'colcon_pkg'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extensions ['colcon_meta']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extension 'ros'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extensions ['cmake', 'python']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extension 'cmake'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extension 'python'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extensions ['python_setup_py']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2) by extension 'python_setup_py'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extension 'colcon_meta'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_basic) by extension 'ros'
+[0.964s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rob599r2/rob599_basic' with type 'ros.ament_python' and name 'rob599_basic'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extension 'ignore_ament_install'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extensions ['colcon_pkg']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extension 'colcon_pkg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599r2/rob599_msgs) by extension 'ros'
+[0.965s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rob599r2/rob599_msgs' with type 'ros.ament_cmake' and name 'rob599_msgs'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'cmake_args' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'cmake_target' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.041s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.041s] DEBUG:colcon.colcon_core.verb:Building package 'rob599_hw2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chelse/ros2_ws/build/rob599_hw2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chelse/ros2_ws/install/rob599_hw2_msgs', 'merge_install': False, 'path': '/home/chelse/ros2_ws/src/rob599_hw2_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.054s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_target' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.055s] DEBUG:colcon.colcon_core.verb:Building package 'rob599_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chelse/ros2_ws/build/rob599_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chelse/ros2_ws/install/rob599_msgs', 'merge_install': False, 'path': '/home/chelse/ros2_ws/src/rob599r2/rob599_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.068s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.068s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chelse/ros2_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chelse/ros2_ws/install/turtlesim', 'merge_install': False, 'path': '/home/chelse/ros2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_args' from command line to 'None'
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_target' from command line to 'None'
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_clean_cache' from command line to 'False'
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_clean_first' from command line to 'False'
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_force_configure' from command line to 'False'
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'ament_cmake_args' from command line to 'None'
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'catkin_cmake_args' from command line to 'None'
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.082s] DEBUG:colcon.colcon_core.verb:Building package 'rob599_basic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chelse/ros2_ws/build/rob599_basic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chelse/ros2_ws/install/rob599_basic', 'merge_install': False, 'path': '/home/chelse/ros2_ws/src/rob599r2/rob599_basic', 'symlink_install': False, 'test_result_base': None}
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'cmake_args' from command line to 'None'
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'cmake_target' from command line to 'None'
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.095s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'cmake_clean_first' from command line to 'False'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'cmake_force_configure' from command line to 'False'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'ament_cmake_args' from command line to 'None'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.096s] Level 5:colcon.colcon_core.verb:set package 'rob599_hw2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.096s] DEBUG:colcon.colcon_core.verb:Building package 'rob599_hw2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chelse/ros2_ws/build/rob599_hw2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chelse/ros2_ws/install/rob599_hw2', 'merge_install': False, 'path': '/home/chelse/ros2_ws/src/rob599_hw2', 'symlink_install': False, 'test_result_base': None}
+[1.109s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chelse/ros2_ws/src/rob599_hw2_msgs' with build type 'ament_cmake'
+[1.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chelse/ros2_ws/src/rob599_hw2_msgs'
+[1.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.182s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chelse/ros2_ws/src/rob599r2/rob599_msgs' with build type 'ament_cmake'
+[1.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chelse/ros2_ws/src/rob599r2/rob599_msgs'
+[1.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.239s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chelse/ros2_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[1.239s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chelse/ros2_ws/src/ros_tutorials/turtlesim'
+[1.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chelse/ros2_ws/build/rob599_hw2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --build /home/chelse/ros2_ws/build/rob599_hw2_msgs -- -j12 -l12
+[1.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chelse/ros2_ws/build/rob599_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --build /home/chelse/ros2_ws/build/rob599_msgs -- -j12 -l12
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chelse/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --build /home/chelse/ros2_ws/build/turtlesim -- -j12 -l12
+[1.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chelse/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --build /home/chelse/ros2_ws/build/turtlesim -- -j12 -l12
+[1.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chelse/ros2_ws/build/rob599_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --build /home/chelse/ros2_ws/build/rob599_msgs -- -j12 -l12
+[1.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chelse/ros2_ws/build/rob599_hw2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --build /home/chelse/ros2_ws/build/rob599_hw2_msgs -- -j12 -l12
+[1.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chelse/ros2_ws/build/rob599_hw2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --install /home/chelse/ros2_ws/build/rob599_hw2_msgs
+[1.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chelse/ros2_ws/build/rob599_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --install /home/chelse/ros2_ws/build/rob599_msgs
+[1.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_msgs)
+[1.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chelse/ros2_ws/build/rob599_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --install /home/chelse/ros2_ws/build/rob599_msgs
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs' for CMake module files
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs' for CMake config files
+[1.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'cmake_prefix_path')
+[1.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.ps1'
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.dsv'
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.sh'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/lib'
+[1.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'ld_library_path_lib')
+[1.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.dsv'
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.sh'
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/bin'
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/lib/pkgconfig/rob599_msgs.pc'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/lib/python3.10/site-packages'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/bin'
+[1.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.ps1'
+[1.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.dsv'
+[1.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.sh'
+[1.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.bash'
+[2.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.zsh'
+[2.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chelse/ros2_ws/install/rob599_msgs/share/colcon-core/packages/rob599_msgs)
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chelse/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --install /home/chelse/ros2_ws/build/turtlesim
+[2.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_hw2_msgs)
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chelse/ros2_ws/build/rob599_hw2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --install /home/chelse/ros2_ws/build/rob599_hw2_msgs
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs' for CMake module files
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs' for CMake config files
+[2.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_hw2_msgs', 'cmake_prefix_path')
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/cmake_prefix_path.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/cmake_prefix_path.dsv'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/cmake_prefix_path.sh'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib'
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_hw2_msgs', 'ld_library_path_lib')
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/ld_library_path_lib.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/ld_library_path_lib.dsv'
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/ld_library_path_lib.sh'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/bin'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/pkgconfig/rob599_hw2_msgs.pc'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/python3.10/site-packages'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/bin'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.dsv'
+[2.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.sh'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.bash'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.zsh'
+[2.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/colcon-core/packages/rob599_hw2_msgs)
+[2.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_msgs)
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs' for CMake module files
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs' for CMake config files
+[2.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'cmake_prefix_path')
+[2.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.ps1'
+[2.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.dsv'
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.sh'
+[2.158s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/lib'
+[2.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'ld_library_path_lib')
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.ps1'
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.dsv'
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.sh'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/bin'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/lib/pkgconfig/rob599_msgs.pc'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/lib/python3.10/site-packages'
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_msgs/bin'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.ps1'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.dsv'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.sh'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.bash'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_msgs/share/rob599_msgs/package.zsh'
+[2.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chelse/ros2_ws/install/rob599_msgs/share/colcon-core/packages/rob599_msgs)
+[2.191s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chelse/ros2_ws/src/rob599r2/rob599_basic' with build type 'ament_python'
+[2.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_basic', 'ament_prefix_path')
+[2.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/hook/ament_prefix_path.ps1'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/hook/ament_prefix_path.dsv'
+[2.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/hook/ament_prefix_path.sh'
+[2.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[2.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chelse/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/chelse/ros2_ws/install/rob599_basic /usr/bin/cmake --install /home/chelse/ros2_ws/build/turtlesim
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim' for CMake module files
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim' for CMake config files
+[2.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[2.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/lib'
+[2.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[2.307s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/bin'
+[2.307s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/lib/python3.10/site-packages'
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/bin'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[2.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chelse/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[2.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_hw2_msgs)
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs' for CMake module files
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs' for CMake config files
+[2.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_hw2_msgs', 'cmake_prefix_path')
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/cmake_prefix_path.ps1'
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/cmake_prefix_path.dsv'
+[2.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/cmake_prefix_path.sh'
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib'
+[2.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_hw2_msgs', 'ld_library_path_lib')
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/ld_library_path_lib.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/ld_library_path_lib.dsv'
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/hook/ld_library_path_lib.sh'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/pkgconfig/rob599_hw2_msgs.pc'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/python3.10/site-packages'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2_msgs/bin'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.dsv'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.sh'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.bash'
+[2.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.zsh'
+[2.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chelse/ros2_ws/install/rob599_hw2_msgs/share/colcon-core/packages/rob599_hw2_msgs)
+[2.395s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chelse/ros2_ws/src/rob599_hw2' with build type 'ament_python'
+[2.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_hw2', 'ament_prefix_path')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/ament_prefix_path.ps1'
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/ament_prefix_path.dsv'
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/ament_prefix_path.sh'
+[2.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.700s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chelse/ros2_ws/src/rob599r2/rob599_basic'
+[2.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.977s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chelse/ros2_ws/src/rob599_hw2'
+[2.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.052s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim' for CMake module files
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim' for CMake config files
+[3.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/lib'
+[3.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/bin'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/lib/python3.10/site-packages'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/turtlesim/bin'
+[3.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[3.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chelse/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chelse/ros2_ws/src/rob599r2/rob599_basic': CMAKE_PREFIX_PATH=/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_hw2_msgs:/home/chelse/ros2_ws/install/rob599_hw2 LD_LIBRARY_PATH=/home/chelse/ros2_ws/install/rob599_msgs/lib:/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/chelse/ros2_ws/install/turtlesim/lib PYTHONPATH=/home/chelse/ros2_ws/build/rob599_basic/prefix_override:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rob599_basic build --build-base /home/chelse/ros2_ws/build/rob599_basic/build install --record /home/chelse/ros2_ws/build/rob599_basic/install.log --install-scripts $base/lib/rob599_basic --single-version-externally-managed
+[3.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chelse/ros2_ws/src/rob599_hw2': CMAKE_PREFIX_PATH=/home/chelse/ros2_ws/install/rob599_hw2_msgs:/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2 PYTHONPATH=/home/chelse/ros2_ws/build/rob599_hw2/prefix_override:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rob599_hw2 build --build-base /home/chelse/ros2_ws/build/rob599_hw2/build install --record /home/chelse/ros2_ws/build/rob599_hw2/install.log --single-version-externally-managed
+[3.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chelse/ros2_ws/src/rob599r2/rob599_basic' returned '0': CMAKE_PREFIX_PATH=/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_hw2_msgs:/home/chelse/ros2_ws/install/rob599_hw2 LD_LIBRARY_PATH=/home/chelse/ros2_ws/install/rob599_msgs/lib:/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/chelse/ros2_ws/install/turtlesim/lib PYTHONPATH=/home/chelse/ros2_ws/build/rob599_basic/prefix_override:/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rob599_basic build --build-base /home/chelse/ros2_ws/build/rob599_basic/build install --record /home/chelse/ros2_ws/build/rob599_basic/install.log --install-scripts $base/lib/rob599_basic --single-version-externally-managed
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_basic' for CMake module files
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_basic' for CMake config files
+[3.699s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_basic/lib'
+[3.699s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_basic/bin'
+[3.699s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_basic/lib/pkgconfig/rob599_basic.pc'
+[3.699s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_basic/lib/python3.10/site-packages'
+[3.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_basic', 'pythonpath')
+[3.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/hook/pythonpath.ps1'
+[3.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/hook/pythonpath.dsv'
+[3.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/hook/pythonpath.sh'
+[3.713s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_basic/bin'
+[3.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_basic)
+[3.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/package.ps1'
+[3.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/package.dsv'
+[3.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/package.sh'
+[3.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/package.bash'
+[3.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_basic/share/rob599_basic/package.zsh'
+[3.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chelse/ros2_ws/install/rob599_basic/share/colcon-core/packages/rob599_basic)
+[3.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chelse/ros2_ws/src/rob599_hw2' returned '0': CMAKE_PREFIX_PATH=/home/chelse/ros2_ws/install/rob599_hw2_msgs:/home/chelse/ros2_ws/install/turtlesim:/home/chelse/ros2_ws/install/rob599_msgs:/home/chelse/ros2_ws/install/rob599_hw2 PYTHONPATH=/home/chelse/ros2_ws/build/rob599_hw2/prefix_override:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rob599_hw2 build --build-base /home/chelse/ros2_ws/build/rob599_hw2/build install --record /home/chelse/ros2_ws/build/rob599_hw2/install.log --single-version-externally-managed
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2' for CMake module files
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2' for CMake config files
+[3.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_hw2', 'cmake_prefix_path')
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/cmake_prefix_path.ps1'
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/cmake_prefix_path.dsv'
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/cmake_prefix_path.sh'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2/lib'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2/bin'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2/lib/pkgconfig/rob599_hw2.pc'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages'
+[3.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_hw2', 'pythonpath')
+[3.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/pythonpath.ps1'
+[3.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/pythonpath.dsv'
+[3.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/hook/pythonpath.sh'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/chelse/ros2_ws/install/rob599_hw2/bin'
+[3.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_hw2)
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/package.ps1'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/package.dsv'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/package.sh'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/package.bash'
+[3.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/chelse/ros2_ws/install/rob599_hw2/share/rob599_hw2/package.zsh'
+[3.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chelse/ros2_ws/install/rob599_hw2/share/colcon-core/packages/rob599_hw2)
+[3.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.790s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.810s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.810s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.810s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chelse/ros2_ws/install/local_setup.ps1'
+[3.846s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chelse/ros2_ws/install/_local_setup_util_ps1.py'
+[3.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chelse/ros2_ws/install/setup.ps1'
+[3.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chelse/ros2_ws/install/local_setup.sh'
+[3.873s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chelse/ros2_ws/install/_local_setup_util_sh.py'
+[3.874s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chelse/ros2_ws/install/setup.sh'
+[3.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chelse/ros2_ws/install/local_setup.bash'
+[3.896s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chelse/ros2_ws/install/setup.bash'
+[3.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chelse/ros2_ws/install/local_setup.zsh'
+[3.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chelse/ros2_ws/install/setup.zsh'

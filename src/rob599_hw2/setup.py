@@ -27,6 +27,8 @@ setup(
             'speed_publisher = rob599_hw2.speed_publisher:main',
             'speed_limiter = rob599_hw2.speed_limiter:main',
             'twist_tester = rob599_hw2.twist_tester:main',
+            'nasa = rob599_hw2.nasa:main',
+            'nasa_client = rob599_hw2.nasa_client:main',
         ],
     },
 )

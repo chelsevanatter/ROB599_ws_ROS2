@@ -18,7 +18,9 @@ def generate_launch_description():
             name = 'speed_limiter',
             parameters=[
                 {'linear_max': 100.0},
-                {'angular_max': 100.0}
+                {'angular_max': 100.0},
+				{'with_watchdog': True},
+				{'watchdog_period': 20},
             ]
         ),
         # Launch twist_tester node
