@@ -58,6 +58,7 @@ def main(args=None):
         countdown_time = int(sys.argv[1])
     else:
         countdown_time = 30  # Default to 30 seconds if no argument provided
+    
     if len(sys.argv) > 1:
         cancel_time = int(sys.argv[2])
     else:
