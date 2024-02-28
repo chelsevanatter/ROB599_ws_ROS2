@@ -22,6 +22,8 @@ class ArduinoControl(Node):
         self.arduino = serial.Serial(serial_port, baud_rate, timeout=2)
         self.csv_file = csv_file
         
+        self.HuskyHeight = 430
+        
     # Function to send command to Arduino
     def send_command(self, command):
         self.arduino.write(command.encode())   # Send the command to Arduino
@@ -30,34 +32,49 @@ class ArduinoControl(Node):
 
     # Main function
     def main(self):
-        # Prompt the user to enter the command ('F' for forward, 'B' for backward)
-        command = input("Enter 'U' for up, D for down, and C to start pushing: ")
-        
-        # Validate user input
-        if command.upper() in ('C','D','U'):
-            if command == 'D' or command == 'U':
-               distance = int(input("Please input distance as int divisible by 5 in mm: "))
-               numExecutions = distance//5
-               for i in range (numExecutions):
-                self.send_command(command.upper()) 
-            elif command =='C':
-                # Send the command to Arduino
-                self.send_command(command.upper())
-                with open(self.csv_file, 'w', newline='') as file:
-                    writer = csv.writer(file)
-                    writer.writerow(['Iteration', 'Time_Stamp', 'Load_Cell_Reading', 'Motor_Steps'])
-                    
-                    while True:
-                        line = self.arduino.readline().decode().strip()
-                        if line:
-                            data = line.split(', ')
-                            writer.writerow(data)
-                            self.get_logger().info(f'Data written: {data}')
-                        else:
-                            self.get_logger().info("No more data received. Exiting...")
-                            break
-        else:
-            self.get_logger().error("Invalid input. Please enter 'F' for forward or 'B' for backward.")
+        end = 0
+        height = self.HuskyHeight
+        # Input the experiment number
+        ex_num = int(input("Enter the experiment number: "))
+        while end != 1:
+            # Prompt the user to enter the command ('F' for forward, 'B' for backward)
+            command = input("Enter 'U' for up, D for down, and C to start pushing: ")
+            
+            # Validate user input
+            if command.upper() in ('C','D','U'):
+                if command == 'D' or command == 'U':
+                    distance = int(input("Please input distance as int divisible by 5 in mm: "))
+                    numExecutions = distance//5
+                    for i in range (numExecutions):
+                        self.send_command(command.upper()) 
+                    if command == 'D':
+                        height = height - distance
+                    if command == 'U':
+                        height = height + distance
+                elif command =='C':
+                    # Send the command to Arduino
+                    self.send_command(command.upper())
+                    with open(self.csv_file, 'w', newline='') as file:
+                        writer = csv.writer(file)
+                        writer.writerow(['Iteration', 'Time_Stamp', 'Load_Cell_Reading', 'Motor_Steps','Experiment Number','Height'])
+                        
+                        while True:
+                            line = self.arduino.readline().decode().strip()
+                            if line:
+                                data = line.split(', ')
+                                data.append(str(ex_num))
+                                data.append(str(height))
+                                
+                                writer.writerow(data)
+                                self.get_logger().info(f'Data written: {data}')
+                            else:
+                                self.get_logger().info("No more data received. Exiting...")
+                                break
+            theEnd = input("Enter 'end' to end program or hit enter to continue: ")
+            if theEnd == 'end':
+                end = 1
+            else:
+                self.get_logger().error("Invalid input")
 
         # Close the serial connection
         self.arduino.close()

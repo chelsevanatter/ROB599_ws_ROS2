@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import linregress
 
 # Define the file name for the CSV file
-CSV_FILE = 'arduino_data.csv'
+CSV_FILE = 'arduino_data_subscriber.csv'
 
 # Lists to store the data
 all_load_cell_readings = []
