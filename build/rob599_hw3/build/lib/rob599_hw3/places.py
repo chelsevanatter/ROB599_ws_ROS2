@@ -2,8 +2,7 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import PoseStamped
 from visualization_msgs.msg import Marker
-from std_srvs.srv import Empty, EmptyResponse
-from rob599_hw3.srv import MemorizePosition, MemorizePositionResponse
+from rob599_hw2_msgs.srv import MemorizePosition, ClearPositions
 
 class PlacesNode(Node):
     def __init__(self):
@@ -14,7 +13,7 @@ class PlacesNode(Node):
             MemorizePosition, 'memorize_position', self.memorize_position_callback
         )
         self.clear_positions_service = self.create_service(
-            Empty, 'clear_positions', self.clear_positions_callback
+            ClearPositions, 'clear_positions', self.clear_positions_callback
         )
 
     def memorize_position_callback(self, request, response):
@@ -29,7 +28,8 @@ class PlacesNode(Node):
         self.get_logger().info('Clearing all saved positions')
         self.positions.clear()
         self.clear_markers()
-        return EmptyResponse()
+        response.success = True  # Set success to True since clearing positions was successful
+        return response
 
     def get_current_pose(self):
         # This is just a placeholder. You should replace it with your actual logic to get the current robot pose.

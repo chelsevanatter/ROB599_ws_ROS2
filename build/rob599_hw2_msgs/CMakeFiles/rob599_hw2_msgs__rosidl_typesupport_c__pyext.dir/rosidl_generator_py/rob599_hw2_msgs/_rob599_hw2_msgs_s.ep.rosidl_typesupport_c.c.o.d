@@ -205,10 +205,16 @@ CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/
  /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/msg/rosidl_generator_c__visibility_control.h \
  /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/srv/detail/apply_brakes__struct.h \
  /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/srv/detail/apply_brakes__functions.h \
- /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h \
- /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__struct.h \
+ /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/srv/detail/memorize_position__type_support.h \
+ /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/srv/detail/memorize_position__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/srv/detail/memorize_position__functions.h \
+ /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support.h \
+ /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__struct.h \
+ /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__functions.h \
+ /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h \
+ /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__struct.h \
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__functions.h

@@ -8,6 +8,10 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/rob599_hw2_msgs/srv/__init__.py"
   "../rosidl_generator_py/rob599_hw2_msgs/srv/_apply_brakes.py"
   "../rosidl_generator_py/rob599_hw2_msgs/srv/_apply_brakes_s.c"
+  "../rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions.py"
+  "../rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions_s.c"
+  "../rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position.py"
+  "../rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position_s.c"
   "CMakeFiles/rob599_hw2_msgs__py"
 )
 
