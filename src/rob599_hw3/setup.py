@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'places = rob599_hw3.places:main',
-            'places_client = rob599_hw3.places_client:main'  
+            'places_client = rob599_hw3.places_client:main',  
+            'go_to_client = rob599_hw3.go_to_client:main' 
         ],
     },
 )

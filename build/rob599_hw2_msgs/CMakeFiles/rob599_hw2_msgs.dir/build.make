@@ -81,7 +81,12 @@ CMakeFiles/rob599_hw2_msgs: rosidl_cmake/srv/SavePlaces_Response.msg
 CMakeFiles/rob599_hw2_msgs: /home/chelse/ros2_ws/src/rob599_hw2_msgs/srv/LoadPlaces.srv
 CMakeFiles/rob599_hw2_msgs: rosidl_cmake/srv/LoadPlaces_Request.msg
 CMakeFiles/rob599_hw2_msgs: rosidl_cmake/srv/LoadPlaces_Response.msg
+CMakeFiles/rob599_hw2_msgs: /home/chelse/ros2_ws/src/rob599_hw2_msgs/srv/KnockKnock.srv
+CMakeFiles/rob599_hw2_msgs: rosidl_cmake/srv/KnockKnock_Request.msg
+CMakeFiles/rob599_hw2_msgs: rosidl_cmake/srv/KnockKnock_Response.msg
 CMakeFiles/rob599_hw2_msgs: /home/chelse/ros2_ws/src/rob599_hw2_msgs/action/LaunchRocket.action
+CMakeFiles/rob599_hw2_msgs: /home/chelse/ros2_ws/src/rob599_hw2_msgs/action/GoTo.action
+CMakeFiles/rob599_hw2_msgs: /home/chelse/ros2_ws/src/rob599_hw2_msgs/action/Patrol.action
 CMakeFiles/rob599_hw2_msgs: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/rob599_hw2_msgs: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/rob599_hw2_msgs: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl

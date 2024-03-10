@@ -260,16 +260,35 @@ CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/
   rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__type_support.h \
   rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__struct.h \
   rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__functions.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/knock_knock__type_support.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/knock_knock__struct.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/knock_knock__functions.h \
   rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h \
   rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__struct.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__functions.h
+  rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__functions.h \
+  rosidl_generator_c/rob599_hw2_msgs/action/detail/go_to__type_support.h \
+  rosidl_generator_c/rob599_hw2_msgs/action/detail/go_to__struct.h \
+  rosidl_generator_c/rob599_hw2_msgs/action/detail/go_to__functions.h \
+  rosidl_generator_c/rob599_hw2_msgs/action/detail/patrol__type_support.h \
+  rosidl_generator_c/rob599_hw2_msgs/action/detail/patrol__struct.h \
+  rosidl_generator_c/rob599_hw2_msgs/action/detail/patrol__functions.h
 
+
+rosidl_generator_c/rob599_hw2_msgs/action/detail/patrol__functions.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__struct.h:
+
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/knock_knock__functions.h:
+
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/knock_knock__struct.h:
+
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/knock_knock__type_support.h:
+
+rosidl_generator_c/rob599_hw2_msgs/action/detail/patrol__struct.h:
 
 rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__functions.h:
 
@@ -328,6 +347,8 @@ rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__struct.h:
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+rosidl_generator_c/rob599_hw2_msgs/action/detail/patrol__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -439,6 +460,8 @@ rosidl_generator_c/rob599_hw2_msgs/srv/detail/memorize_position__type_support.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
+rosidl_generator_c/rob599_hw2_msgs/action/detail/go_to__functions.h:
+
 /usr/include/python3.10/weakrefobject.h:
 
 /usr/include/inttypes.h:
@@ -518,6 +541,8 @@ rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__functions.h:
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+rosidl_generator_c/rob599_hw2_msgs/action/detail/go_to__type_support.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
@@ -780,6 +805,8 @@ rosidl_generator_c/rob599_hw2_msgs/srv/detail/memorize_position__functions.h:
 rosidl_generator_c/rob599_hw2_msgs/srv/detail/apply_brakes__struct.h:
 
 rosidl_generator_c/rob599_hw2_msgs/srv/detail/memorize_position__struct.h:
+
+rosidl_generator_c/rob599_hw2_msgs/action/detail/go_to__struct.h:
 
 /usr/include/python3.10/cpython/dictobject.h:
 

@@ -376,7 +376,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_adapter/rob599_hw2_msgs/srv/KnockKnock.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/action" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_adapter/rob599_hw2_msgs/action/LaunchRocket.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/action" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_adapter/rob599_hw2_msgs/action/GoTo.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/action" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_adapter/rob599_hw2_msgs/action/Patrol.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -440,7 +452,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/src/rob599_hw2_msgs/srv/KnockKnock.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_cmake/srv/KnockKnock_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_cmake/srv/KnockKnock_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/action" TYPE FILE FILES "/home/chelse/ros2_ws/src/rob599_hw2_msgs/action/LaunchRocket.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/action" TYPE FILE FILES "/home/chelse/ros2_ws/src/rob599_hw2_msgs/action/GoTo.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/action" TYPE FILE FILES "/home/chelse/ros2_ws/src/rob599_hw2_msgs/action/Patrol.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
