@@ -80,6 +80,8 @@ rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_ty
 rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/rob599_hw2_msgs/srv/ApplyBrakes.idl
 rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/rob599_hw2_msgs/srv/MemorizePosition.idl
 rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/rob599_hw2_msgs/srv/ClearPositions.idl
+rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/rob599_hw2_msgs/srv/SavePlaces.idl
+rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/rob599_hw2_msgs/srv/LoadPlaces.idl
 rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/rob599_hw2_msgs/action/LaunchRocket.idl
 rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -105,6 +107,18 @@ rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__rosidl
 
 rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support_c.cpp: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp
 
 rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__rosidl_typesupport_fastrtps_c.h
@@ -154,10 +168,38 @@ CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support_c.cpp -o CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support_c.cpp.s
 
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chelse/ros2_ws/build/rob599_hw2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o -MF CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o.d -o CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o -c /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp
+
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp > CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.i
+
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp -o CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.s
+
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chelse/ros2_ws/build/rob599_hw2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o -MF CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o.d -o CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o -c /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp
+
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp > CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.i
+
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp -o CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.s
+
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chelse/ros2_ws/build/rob599_hw2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chelse/ros2_ws/build/rob599_hw2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o -MF CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o.d -o CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o -c /home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp
 
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.i: cmake_force
@@ -173,6 +215,8 @@ rob599_hw2_msgs__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__type_support_c.cpp.o" \
 "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/memorize_position__type_support_c.cpp.o" \
 "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support_c.cpp.o" \
+"CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o" \
+"CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o" \
 "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o"
 
 # External object files for target rob599_hw2_msgs__rosidl_typesupport_fastrtps_c
@@ -181,6 +225,8 @@ rob599_hw2_msgs__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__type_support_c.cpp.o
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/memorize_position__type_support_c.cpp.o
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support_c.cpp.o
+librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp.o
+librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp.o
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support_c.cpp.o
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/build.make
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: librob599_hw2_msgs__rosidl_generator_c.so
@@ -197,7 +243,7 @@ librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libuni
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chelse/ros2_ws/build/rob599_hw2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chelse/ros2_ws/build/rob599_hw2_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -214,8 +260,12 @@ CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typ
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/apply_brakes__type_support_c.cpp
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support_c.cpp
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/load_places__type_support_c.cpp
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/memorize_position__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/memorize_position__type_support_c.cpp
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/rob599_hw2_msgs/srv/detail/save_places__type_support_c.cpp
 	cd /home/chelse/ros2_ws/build/rob599_hw2_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chelse/ros2_ws/src/rob599_hw2_msgs /home/chelse/ros2_ws/src/rob599_hw2_msgs /home/chelse/ros2_ws/build/rob599_hw2_msgs /home/chelse/ros2_ws/build/rob599_hw2_msgs /home/chelse/ros2_ws/build/rob599_hw2_msgs/CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c.dir/depend
 

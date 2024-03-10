@@ -78,6 +78,14 @@ CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/clear_
 CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__builder.hpp
 CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__struct.hpp
 CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__traits.hpp
+CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/save_places.hpp
+CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__builder.hpp
+CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__struct.hpp
+CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__traits.hpp
+CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/load_places.hpp
+CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__builder.hpp
+CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__struct.hpp
+CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__traits.hpp
 CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/action/launch_rocket.hpp
 CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/action/detail/launch_rocket__builder.hpp
 CMakeFiles/rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/action/detail/launch_rocket__struct.hpp
@@ -101,6 +109,8 @@ rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: /opt/ros/humble/share
 rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: rosidl_adapter/rob599_hw2_msgs/srv/ApplyBrakes.idl
 rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: rosidl_adapter/rob599_hw2_msgs/srv/MemorizePosition.idl
 rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: rosidl_adapter/rob599_hw2_msgs/srv/ClearPositions.idl
+rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: rosidl_adapter/rob599_hw2_msgs/srv/SavePlaces.idl
+rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: rosidl_adapter/rob599_hw2_msgs/srv/LoadPlaces.idl
 rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: rosidl_adapter/rob599_hw2_msgs/action/LaunchRocket.idl
 rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -145,6 +155,30 @@ rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__struct.hpp: ros
 rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__traits.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__traits.hpp
 
+rosidl_generator_cpp/rob599_hw2_msgs/srv/save_places.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/save_places.hpp
+
+rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__builder.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__builder.hpp
+
+rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__struct.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__struct.hpp
+
+rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__traits.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__traits.hpp
+
+rosidl_generator_cpp/rob599_hw2_msgs/srv/load_places.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/load_places.hpp
+
+rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__builder.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__builder.hpp
+
+rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__struct.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__struct.hpp
+
+rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__traits.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__traits.hpp
+
 rosidl_generator_cpp/rob599_hw2_msgs/action/launch_rocket.hpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/rob599_hw2_msgs/action/launch_rocket.hpp
 
@@ -170,10 +204,18 @@ rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/apply_brak
 rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__builder.hpp
 rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__struct.hpp
 rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__traits.hpp
+rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__builder.hpp
+rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__struct.hpp
+rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__traits.hpp
 rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__builder.hpp
 rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__struct.hpp
 rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__traits.hpp
+rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__builder.hpp
+rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__struct.hpp
+rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__traits.hpp
+rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/load_places.hpp
 rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/memorize_position.hpp
+rob599_hw2_msgs__cpp: rosidl_generator_cpp/rob599_hw2_msgs/srv/save_places.hpp
 rob599_hw2_msgs__cpp: CMakeFiles/rob599_hw2_msgs__cpp.dir/build.make
 .PHONY : rob599_hw2_msgs__cpp
 

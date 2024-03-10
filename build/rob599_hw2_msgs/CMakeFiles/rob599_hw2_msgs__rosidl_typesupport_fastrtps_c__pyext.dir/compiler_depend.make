@@ -254,12 +254,24 @@ CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
   rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support.h \
   rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__struct.h \
   rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__functions.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/save_places__type_support.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/save_places__struct.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/save_places__functions.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__type_support.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__struct.h \
+  rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__functions.h \
   rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h \
   rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__struct.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__functions.h
 
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__struct.h:
+
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__functions.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -268,6 +280,8 @@ CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
 /usr/include/linux/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
@@ -326,6 +340,10 @@ CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
 /usr/include/assert.h:
 
 /usr/include/python3.10/structseq.h:
+
+rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h:
+
+/usr/include/linux/close_range.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
@@ -460,6 +478,16 @@ rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__functions.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/load_places__type_support.h:
+
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+
+/usr/include/python3.10/funcobject.h:
+
+/usr/include/python3.10/objimpl.h:
+
+/usr/include/python3.10/patchlevel.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
@@ -601,10 +629,6 @@ rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__functions.h:
 
 /usr/include/python3.10/cpython/pystate.h:
 
-/usr/include/linux/close_range.h:
-
-rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/python3.10/bytesobject.h:
@@ -622,10 +646,6 @@ rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h:
 /usr/include/python3.10/listobject.h:
 
 /usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/python3.10/complexobject.h:
 
 /usr/include/python3.10/rangeobject.h:
 
@@ -652,6 +672,8 @@ rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h:
 /usr/include/python3.10/cpython/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/save_places__functions.h:
 
 /usr/include/python3.10/pycapsule.h:
 
@@ -685,8 +707,6 @@ rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h:
 
 /usr/include/python3.10/descrobject.h:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
-
 /usr/include/python3.10/genericaliasobject.h:
 
 /usr/include/stdint.h:
@@ -694,6 +714,8 @@ rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h:
 /usr/include/endian.h:
 
 /usr/include/python3.10/cpython/ceval.h:
+
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/save_places__struct.h:
 
 /usr/include/python3.10/pyerrors.h:
 
@@ -718,8 +740,6 @@ rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h:
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-rosidl_generator_c/rob599_hw2_msgs/action/detail/launch_rocket__struct.h:
 
 rosidl_generator_c/rob599_hw2_msgs/srv/detail/memorize_position__functions.h:
 
@@ -769,10 +789,8 @@ rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support.h:
 
 rosidl_generator_c/rob599_hw2_msgs/srv/detail/clear_positions__struct.h:
 
-/usr/include/python3.10/funcobject.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/python3.10/objimpl.h:
+/usr/include/python3.10/complexobject.h:
 
-/usr/include/python3.10/patchlevel.h:
-
-/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+rosidl_generator_c/rob599_hw2_msgs/srv/detail/save_places__type_support.h:

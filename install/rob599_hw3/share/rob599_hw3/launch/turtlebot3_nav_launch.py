@@ -10,7 +10,7 @@ import os
 
 def generate_launch_description():
     # Define the path to your custom map using FindPackageShare
-    custom_map_path = '/home/chelse/ros2_ws/src/rob599_hw3/resources/map.yaml'
+    custom_map_path = '/home/chelse/ros2_ws/src/rob599_hw3/resource/map.yaml'
 
     return LaunchDescription([
         # Set the Turtlebot 3 model environment variable
@@ -25,8 +25,8 @@ def generate_launch_description():
                 )
             ]),
             launch_arguments={
-                'x_pose': '1.5',
-                'y_pose': '-1.5'
+                'x_pose': '-1.5',
+                'y_pose': '1.5'
             }.items()
         ),
 

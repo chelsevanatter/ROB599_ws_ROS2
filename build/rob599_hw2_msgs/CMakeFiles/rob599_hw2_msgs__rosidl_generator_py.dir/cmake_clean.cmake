@@ -5,8 +5,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_apply_brakes_s.c.o.d"
   "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions_s.c.o"
   "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions_s.c.o.d"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_load_places_s.c.o"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_load_places_s.c.o.d"
   "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position_s.c.o"
   "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position_s.c.o.d"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_save_places_s.c.o"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_generator_py.dir/rosidl_generator_py/rob599_hw2_msgs/srv/_save_places_s.c.o.d"
   "rosidl_generator_py/rob599_hw2_msgs/librob599_hw2_msgs__rosidl_generator_py.pdb"
   "rosidl_generator_py/rob599_hw2_msgs/librob599_hw2_msgs__rosidl_generator_py.so"
 )

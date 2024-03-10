@@ -5,8 +5,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/apply_brakes__type_support.c.o.d"
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support.c.o"
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support.c.o.d"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/load_places__type_support.c.o"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/load_places__type_support.c.o.d"
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/memorize_position__type_support.c.o"
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/memorize_position__type_support.c.o.d"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/save_places__type_support.c.o"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/save_places__type_support.c.o.d"
   "librob599_hw2_msgs__rosidl_typesupport_introspection_c.pdb"
   "librob599_hw2_msgs__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/rob599_hw2_msgs/action/detail/launch_rocket__rosidl_typesupport_introspection_c.h"
@@ -15,8 +19,12 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/apply_brakes__type_support.c"
   "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/clear_positions__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/clear_positions__type_support.c"
+  "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/load_places__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/load_places__type_support.c"
   "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/memorize_position__type_support.c"
+  "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/save_places__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/rob599_hw2_msgs/srv/detail/save_places__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -368,6 +368,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_adapter/rob599_hw2_msgs/srv/SavePlaces.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_adapter/rob599_hw2_msgs/srv/LoadPlaces.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/action" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_adapter/rob599_hw2_msgs/action/LaunchRocket.idl")
 endif()
 
@@ -405,6 +413,30 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_cmake/srv/ClearPositions_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/src/rob599_hw2_msgs/srv/SavePlaces.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_cmake/srv/SavePlaces_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_cmake/srv/SavePlaces_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/src/rob599_hw2_msgs/srv/LoadPlaces.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_cmake/srv/LoadPlaces_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rob599_hw2_msgs/srv" TYPE FILE FILES "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_cmake/srv/LoadPlaces_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

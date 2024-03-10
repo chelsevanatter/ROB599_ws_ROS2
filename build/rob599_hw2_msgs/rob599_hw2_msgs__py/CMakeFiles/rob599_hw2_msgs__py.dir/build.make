@@ -72,12 +72,16 @@ rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_h
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_apply_brakes.py
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position.py
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions.py
+rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_save_places.py
+rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_load_places.py
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/action/_launch_rocket.py
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/__init__.py
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/action/__init__.py
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_apply_brakes_s.c
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position_s.c
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions_s.c
+rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_save_places_s.c
+rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_load_places_s.c
 rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/action/_launch_rocket_s.c
 
 rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
@@ -96,6 +100,8 @@ rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fas
 rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/rob599_hw2_msgs/srv/ApplyBrakes.idl
 rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/rob599_hw2_msgs/srv/MemorizePosition.idl
 rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/rob599_hw2_msgs/srv/ClearPositions.idl
+rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/rob599_hw2_msgs/srv/SavePlaces.idl
+rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/rob599_hw2_msgs/srv/LoadPlaces.idl
 rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/rob599_hw2_msgs/action/LaunchRocket.idl
 rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -122,6 +128,12 @@ rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position.py: rosidl_generator_
 rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions.py: rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions.py
 
+rosidl_generator_py/rob599_hw2_msgs/srv/_save_places.py: rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rob599_hw2_msgs/srv/_save_places.py
+
+rosidl_generator_py/rob599_hw2_msgs/srv/_load_places.py: rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rob599_hw2_msgs/srv/_load_places.py
+
 rosidl_generator_py/rob599_hw2_msgs/action/_launch_rocket.py: rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rob599_hw2_msgs/action/_launch_rocket.py
 
@@ -140,6 +152,12 @@ rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position_s.c: rosidl_generator
 rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions_s.c: rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions_s.c
 
+rosidl_generator_py/rob599_hw2_msgs/srv/_save_places_s.c: rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rob599_hw2_msgs/srv/_save_places_s.c
+
+rosidl_generator_py/rob599_hw2_msgs/srv/_load_places_s.c: rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rob599_hw2_msgs/srv/_load_places_s.c
+
 rosidl_generator_py/rob599_hw2_msgs/action/_launch_rocket_s.c: rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/rob599_hw2_msgs/action/_launch_rocket_s.c
 
@@ -155,8 +173,12 @@ rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_apply_brakes.py
 rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_apply_brakes_s.c
 rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions.py
 rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions_s.c
+rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_load_places.py
+rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_load_places_s.c
 rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position.py
 rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position_s.c
+rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_save_places.py
+rob599_hw2_msgs__py: rosidl_generator_py/rob599_hw2_msgs/srv/_save_places_s.c
 rob599_hw2_msgs__py: rob599_hw2_msgs__py/CMakeFiles/rob599_hw2_msgs__py.dir/build.make
 .PHONY : rob599_hw2_msgs__py
 

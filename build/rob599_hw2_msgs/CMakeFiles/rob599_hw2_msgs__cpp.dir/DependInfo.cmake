@@ -23,10 +23,18 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__builder.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__struct.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__traits.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__builder.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__struct.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__traits.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__builder.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__struct.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__traits.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__builder.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__struct.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__traits.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/load_places.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/memorize_position.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/save_places.hpp" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_cpp/rob599_hw2_msgs/srv/apply_brakes.hpp"
   )
 
 

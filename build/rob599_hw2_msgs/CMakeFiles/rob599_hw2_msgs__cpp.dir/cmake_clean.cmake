@@ -12,10 +12,18 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__builder.hpp"
   "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__struct.hpp"
   "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/clear_positions__traits.hpp"
+  "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__builder.hpp"
+  "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__struct.hpp"
+  "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/load_places__traits.hpp"
   "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__builder.hpp"
   "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__struct.hpp"
   "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/memorize_position__traits.hpp"
+  "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__builder.hpp"
+  "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__struct.hpp"
+  "rosidl_generator_cpp/rob599_hw2_msgs/srv/detail/save_places__traits.hpp"
+  "rosidl_generator_cpp/rob599_hw2_msgs/srv/load_places.hpp"
   "rosidl_generator_cpp/rob599_hw2_msgs/srv/memorize_position.hpp"
+  "rosidl_generator_cpp/rob599_hw2_msgs/srv/save_places.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -5,8 +5,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/apply_brakes__type_support.cpp.o.d"
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/clear_positions__type_support.cpp.o"
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/clear_positions__type_support.cpp.o.d"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/load_places__type_support.cpp.o"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/load_places__type_support.cpp.o.d"
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/memorize_position__type_support.cpp.o"
   "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/memorize_position__type_support.cpp.o.d"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/save_places__type_support.cpp.o"
+  "CMakeFiles/rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/save_places__type_support.cpp.o.d"
   "librob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
   "librob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/action/detail/dds_fastrtps/launch_rocket__type_support.cpp"
@@ -15,8 +19,12 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/clear_positions__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/apply_brakes__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/clear_positions__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/load_places__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/memorize_position__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/dds_fastrtps/save_places__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/load_places__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/memorize_position__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/rob599_hw2_msgs/srv/detail/save_places__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

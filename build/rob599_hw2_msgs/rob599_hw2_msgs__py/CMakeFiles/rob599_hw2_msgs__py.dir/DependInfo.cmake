@@ -22,8 +22,12 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_apply_brakes_s.c" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions.py" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_clear_positions_s.c" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_load_places.py" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_load_places_s.c" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position.py" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_memorize_position_s.c" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_save_places.py" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/srv/_save_places_s.c" "/home/chelse/ros2_ws/build/rob599_hw2_msgs/rosidl_generator_py/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

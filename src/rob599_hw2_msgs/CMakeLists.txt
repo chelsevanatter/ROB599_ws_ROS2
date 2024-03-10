@@ -16,6 +16,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ApplyBrakes.srv"
   "srv/MemorizePosition.srv"
   "srv/ClearPositions.srv"
+  "srv/SavePlaces.srv"
+  "srv/LoadPlaces.srv"
   "action/LaunchRocket.action"
  )
 
