@@ -207,21 +207,32 @@ class PlacesNode(Node):
     async def execute_patrol_callback(self, goal_handle):
         feedback_msg = Patrol.Feedback()
         result = Patrol.Result()
+
+        # Load positions from the json file
+        self.load_places_callback(LoadPlaces.Request(), LoadPlaces.Response())
+
         for name, pose in self.positions.items():
             x = pose.pose.position.x
             y = pose.pose.position.y
             self.go_to(x, y)
+
+            # Wait for the robot to reach the position
             while not self.navigator.isTaskComplete():
                 feedback = self.navigator.getFeedback()
                 self.get_logger().info(
                     f'Estimated time of patrol: {Duration.from_msg(feedback.estimated_time_remaining).nanoseconds / 1e9:.2f} seconds')
+
+            # Check if the goal was canceled
             if not goal_handle.is_active:
                 result.success = False
                 result.message = "Patrol was cancelled"
                 return result
+
+        # Patrol complete
         result.success = True
         result.message = "Patrol complete"
         return result
+
 
     def go_to(self, x, y):
         # Set a goal pose.  This is the starting location from our simulation, with an unspecified orientation.
