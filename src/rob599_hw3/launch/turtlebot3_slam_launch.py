@@ -1,5 +1,5 @@
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, SetEnvironmentVariable
 from launch_ros.substitutions import FindPackageShare
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.actions import DeclareLaunchArgument
@@ -9,9 +9,11 @@ from ament_index_python.packages import get_package_share_directory
 
 import os
 
-
 def generate_launch_description():
     return LaunchDescription([
+        # Set the Turtlebot 3 model environment variable
+        SetEnvironmentVariable('TURTLEBOT3_MODEL', 'burger'),
+
         # Start the Turtlebot 3 simulation in Gazebo.
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([

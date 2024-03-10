@@ -24,7 +24,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'places = rob599_hw3.places:main'  
+            'places = rob599_hw3.places:main',
+            'places_client = rob599_hw3.places_client:main'  
         ],
     },
 )

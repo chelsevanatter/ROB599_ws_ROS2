@@ -1,0 +1,337 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (rob599_hw2_msgs) JobQueued: {'identifier': 'rob599_hw2_msgs', 'dependencies': OrderedDict()}
+[0.000520] (rob599_hw3) JobQueued: {'identifier': 'rob599_hw3', 'dependencies': OrderedDict()}
+[0.000596] (rob599_hw2) JobQueued: {'identifier': 'rob599_hw2', 'dependencies': OrderedDict([('rob599_hw2_msgs', '/home/chelse/ros2_ws/install/rob599_hw2_msgs')])}
+[0.000785] (rob599_hw2_msgs) JobStarted: {'identifier': 'rob599_hw2_msgs'}
+[0.098706] (-) TimerEvent: {}
+[0.159020] (rob599_hw3) JobStarted: {'identifier': 'rob599_hw3'}
+[0.198968] (-) TimerEvent: {}
+[0.304587] (-) TimerEvent: {}
+[0.380434] (rob599_hw2_msgs) JobProgress: {'identifier': 'rob599_hw2_msgs', 'progress': 'cmake'}
+[0.381860] (rob599_hw2_msgs) JobProgress: {'identifier': 'rob599_hw2_msgs', 'progress': 'build'}
+[0.383050] (rob599_hw2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chelse/ros2_ws/build/rob599_hw2_msgs', '--', '-j12', '-l12'], 'cwd': '/home/chelse/ros2_ws/build/rob599_hw2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chelse'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chelse'), ('OLDPWD', '/home/chelse'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2356'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chelse/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chelse'), ('_', '/home/chelse/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chelse'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chelse-G5-5587:@/tmp/.ICE-unix/2325,unix/chelse-G5-5587:/tmp/.ICE-unix/2325'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9b3bf7_72d5_42dc_80d9_71a0ac7b6603'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8RC5J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.236'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chelse/ros2_ws/install/rob599_hw3:/home/chelse/ros2_ws/install/rob599_hw2:/home/chelse/ros2_ws/install/rob599_hw2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chelse/ros2_ws/build/rob599_hw2_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chelse/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chelse/ros2_ws/install/rob599_hw2_msgs:/home/chelse/ros2_ws/install/rob599_hw3:/home/chelse/ros2_ws/install/rob599_hw2:/opt/ros/humble')]), 'shell': False}
+[0.404726] (-) TimerEvent: {}
+[0.492964] (rob599_hw2_msgs) StdoutLine: {'line': b'[  1%] Built target rob599_hw2_msgs__cpp\n'}
+[0.498609] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 12%] Built target rob599_hw2_msgs__rosidl_generator_c\n'}
+[0.504864] (-) TimerEvent: {}
+[0.527220] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_rob599_hw2_msgs\n'}
+[0.566348] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 23%] Built target rob599_hw2_msgs__rosidl_typesupport_introspection_c\n'}
+[0.573182] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 34%] Built target rob599_hw2_msgs__rosidl_typesupport_c\n'}
+[0.573778] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 45%] Built target rob599_hw2_msgs__rosidl_typesupport_cpp\n'}
+[0.575265] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 56%] Built target rob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.580818] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 67%] Built target rob599_hw2_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.584738] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 78%] Built target rob599_hw2_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.604997] (-) TimerEvent: {}
+[0.633365] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 78%] Built target rob599_hw2_msgs\n'}
+[0.681198] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 80%] Built target rob599_hw2_msgs__py\n'}
+[0.705141] (-) TimerEvent: {}
+[0.736543] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 89%] Built target rob599_hw2_msgs__rosidl_generator_py\n'}
+[0.790340] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 92%] Built target rob599_hw2_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.792044] (rob599_hw2_msgs) StdoutLine: {'line': b'[ 96%] Built target rob599_hw2_msgs__rosidl_typesupport_c__pyext\n'}
+[0.794814] (rob599_hw2_msgs) StdoutLine: {'line': b'[100%] Built target rob599_hw2_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.805278] (-) TimerEvent: {}
+[0.905844] (-) TimerEvent: {}
+[1.006413] (-) TimerEvent: {}
+[1.107159] (-) TimerEvent: {}
+[1.107909] (rob599_hw2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.109626] (rob599_hw2_msgs) StdoutLine: {'line': b'writing rob599_hw2_msgs.egg-info/PKG-INFO\n'}
+[1.110651] (rob599_hw2_msgs) StdoutLine: {'line': b'writing dependency_links to rob599_hw2_msgs.egg-info/dependency_links.txt\n'}
+[1.111009] (rob599_hw2_msgs) StdoutLine: {'line': b'writing top-level names to rob599_hw2_msgs.egg-info/top_level.txt\n'}
+[1.115965] (rob599_hw2_msgs) StdoutLine: {'line': b"reading manifest file 'rob599_hw2_msgs.egg-info/SOURCES.txt'\n"}
+[1.118139] (rob599_hw2_msgs) StdoutLine: {'line': b"writing manifest file 'rob599_hw2_msgs.egg-info/SOURCES.txt'\n"}
+[1.167822] (rob599_hw2_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rob599_hw2_msgs_egg\n'}
+[1.192537] (rob599_hw2_msgs) CommandEnded: {'returncode': 0}
+[1.207266] (-) TimerEvent: {}
+[1.307683] (-) TimerEvent: {}
+[1.408213] (-) TimerEvent: {}
+[1.497331] (rob599_hw2_msgs) JobProgress: {'identifier': 'rob599_hw2_msgs', 'progress': 'install'}
+[1.508385] (-) TimerEvent: {}
+[1.518926] (rob599_hw2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chelse/ros2_ws/build/rob599_hw2_msgs'], 'cwd': '/home/chelse/ros2_ws/build/rob599_hw2_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chelse'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chelse'), ('OLDPWD', '/home/chelse'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2356'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chelse/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chelse'), ('_', '/home/chelse/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chelse'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chelse-G5-5587:@/tmp/.ICE-unix/2325,unix/chelse-G5-5587:/tmp/.ICE-unix/2325'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e9b3bf7_72d5_42dc_80d9_71a0ac7b6603'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8RC5J2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.236'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chelse/ros2_ws/install/rob599_hw3:/home/chelse/ros2_ws/install/rob599_hw2:/home/chelse/ros2_ws/install/rob599_hw2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chelse/ros2_ws/build/rob599_hw2_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chelse/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chelse/ros2_ws/install/rob599_hw2_msgs:/home/chelse/ros2_ws/install/rob599_hw3:/home/chelse/ros2_ws/install/rob599_hw2:/opt/ros/humble')]), 'shell': False}
+[1.538499] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.539010] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/ament_index/resource_index/rosidl_interfaces/rob599_hw2_msgs\n'}
+[1.539374] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs\n'}
+[1.539707] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action\n'}
+[1.539984] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail\n'}
+[1.540256] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__functions.h\n'}
+[1.540588] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__struct.h\n'}
+[1.540918] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__functions.c\n'}
+[1.541141] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__type_support.h\n'}
+[1.541330] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/launch_rocket.h\n'}
+[1.541473] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/msg\n'}
+[1.541613] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.541811] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv\n'}
+[1.541975] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/clear_positions.h\n'}
+[1.542144] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail\n'}
+[1.542301] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__type_support.h\n'}
+[1.542662] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__type_support.h\n'}
+[1.543016] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__struct.h\n'}
+[1.543384] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__functions.c\n'}
+[1.543682] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__struct.h\n'}
+[1.544033] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__functions.h\n'}
+[1.544283] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__functions.c\n'}
+[1.544620] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__type_support.h\n'}
+[1.545063] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__functions.h\n'}
+[1.545478] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__functions.c\n'}
+[1.545797] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__functions.h\n'}
+[1.546029] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__struct.h\n'}
+[1.546300] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/memorize_position.h\n'}
+[1.546531] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/apply_brakes.h\n'}
+[1.546759] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/environment/library_path.sh\n'}
+[1.547027] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/environment/library_path.dsv\n'}
+[1.547287] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/librob599_hw2_msgs__rosidl_generator_c.so\n'}
+[1.547772] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs\n'}
+[1.548302] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action\n'}
+[1.548896] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail\n'}
+[1.549343] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__rosidl_typesupport_fastrtps_c.h\n'}
+[1.550100] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/msg\n'}
+[1.550651] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.551247] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv\n'}
+[1.551687] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail\n'}
+[1.552148] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__rosidl_typesupport_fastrtps_c.h\n'}
+[1.552653] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_c.h\n'}
+[1.553257] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__rosidl_typesupport_fastrtps_c.h\n'}
+[1.553879] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/librob599_hw2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.554574] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs\n'}
+[1.555089] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action\n'}
+[1.555448] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail\n'}
+[1.555929] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__type_support.c\n'}
+[1.557041] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__rosidl_typesupport_introspection_c.h\n'}
+[1.557598] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/msg\n'}
+[1.558168] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.558590] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv\n'}
+[1.558774] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail\n'}
+[1.559169] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__type_support.c\n'}
+[1.559549] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__type_support.c\n'}
+[1.559955] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__rosidl_typesupport_introspection_c.h\n'}
+[1.560170] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__rosidl_typesupport_introspection_c.h\n'}
+[1.560616] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_introspection_c.h\n'}
+[1.560917] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__type_support.c\n'}
+[1.561156] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/librob599_hw2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.561378] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/librob599_hw2_msgs__rosidl_typesupport_c.so\n'}
+[1.561531] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs\n'}
+[1.561681] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action\n'}
+[1.562002] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail\n'}
+[1.562293] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__traits.hpp\n'}
+[1.562543] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__builder.hpp\n'}
+[1.562683] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__struct.hpp\n'}
+[1.562850] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/launch_rocket.hpp\n'}
+[1.563000] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv\n'}
+[1.563134] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/memorize_position.hpp\n'}
+[1.563269] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/clear_positions.hpp\n'}
+[1.563401] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail\n'}
+[1.563534] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__builder.hpp\n'}
+[1.563682] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__struct.hpp\n'}
+[1.563850] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__traits.hpp\n'}
+[1.563995] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__struct.hpp\n'}
+[1.564202] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__builder.hpp\n'}
+[1.564339] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__builder.hpp\n'}
+[1.564540] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__traits.hpp\n'}
+[1.564767] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__traits.hpp\n'}
+[1.564922] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__struct.hpp\n'}
+[1.565203] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/apply_brakes.hpp\n'}
+[1.565358] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs\n'}
+[1.565520] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action\n'}
+[1.565657] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail\n'}
+[1.565845] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/dds_fastrtps\n'}
+[1.566020] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.566175] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/msg\n'}
+[1.566306] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.566462] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv\n'}
+[1.566612] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail\n'}
+[1.566741] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.566954] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.567106] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.567236] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/dds_fastrtps\n'}
+[1.567365] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/librob599_hw2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.567520] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs\n'}
+[1.567642] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action\n'}
+[1.567784] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail\n'}
+[1.567941] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__type_support.cpp\n'}
+[1.568138] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/action/detail/launch_rocket__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.568304] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv\n'}
+[1.568435] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail\n'}
+[1.568576] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.568754] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.568982] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/clear_positions__type_support.cpp\n'}
+[1.569181] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__type_support.cpp\n'}
+[1.569322] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/memorize_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.569453] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/include/rob599_hw2_msgs/rob599_hw2_msgs/srv/detail/apply_brakes__type_support.cpp\n'}
+[1.569583] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/librob599_hw2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.569714] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/librob599_hw2_msgs__rosidl_typesupport_cpp.so\n'}
+[1.569875] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/environment/pythonpath.sh\n'}
+[1.570080] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/environment/pythonpath.dsv\n'}
+[1.570219] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs-0.0.0-py3.10.egg-info\n'}
+[1.570349] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.570505] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.570657] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.570931] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.571191] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs\n'}
+[1.571372] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/rob599_hw2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.571588] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/action\n'}
+[1.571768] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/action/__init__.py\n'}
+[1.571953] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/action/_launch_rocket.py\n'}
+[1.572167] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/action/_launch_rocket_s.c\n'}
+[1.572406] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.572549] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/__init__.py\n'}
+[1.572715] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/rob599_hw2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.572841] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/librob599_hw2_msgs__rosidl_generator_py.so\n'}
+[1.573034] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.573158] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/rob599_hw2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.573292] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv\n'}
+[1.573416] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv/_clear_positions.py\n'}
+[1.573539] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv/_apply_brakes_s.c\n'}
+[1.573663] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv/__init__.py\n'}
+[1.573811] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv/_memorize_position.py\n'}
+[1.574012] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv/_clear_positions_s.c\n'}
+[1.574184] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv/_memorize_position_s.c\n'}
+[1.574307] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv/_apply_brakes.py\n'}
+[1.574429] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/_rob599_hw2_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.608516] (-) TimerEvent: {}
+[1.642768] (rob599_hw2_msgs) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs'...\n"}
+[1.643202] (rob599_hw2_msgs) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/action'...\n"}
+[1.643467] (rob599_hw2_msgs) StdoutLine: {'line': b"Listing '/home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/srv'...\n"}
+[1.654734] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/rob599_hw2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.655782] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/rob599_hw2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.656842] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages/rob599_hw2_msgs/rob599_hw2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.658095] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/lib/librob599_hw2_msgs__rosidl_generator_py.so\n'}
+[1.658913] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/ApplyBrakes.idl\n'}
+[1.659527] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/MemorizePosition.idl\n'}
+[1.659937] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/ClearPositions.idl\n'}
+[1.660348] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/action/LaunchRocket.idl\n'}
+[1.660820] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/ApplyBrakes.srv\n'}
+[1.661118] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/ApplyBrakes_Request.msg\n'}
+[1.661447] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/ApplyBrakes_Response.msg\n'}
+[1.661647] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/MemorizePosition.srv\n'}
+[1.662087] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/MemorizePosition_Request.msg\n'}
+[1.662344] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/MemorizePosition_Response.msg\n'}
+[1.662705] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/ClearPositions.srv\n'}
+[1.663055] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/ClearPositions_Request.msg\n'}
+[1.663476] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/srv/ClearPositions_Response.msg\n'}
+[1.663850] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/action/LaunchRocket.action\n'}
+[1.664245] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/ament_index/resource_index/package_run_dependencies/rob599_hw2_msgs\n'}
+[1.664592] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/ament_index/resource_index/parent_prefix_path/rob599_hw2_msgs\n'}
+[1.664934] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/environment/ament_prefix_path.sh\n'}
+[1.665116] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/environment/ament_prefix_path.dsv\n'}
+[1.665346] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/environment/path.sh\n'}
+[1.665533] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/environment/path.dsv\n'}
+[1.665710] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/local_setup.bash\n'}
+[1.665868] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/local_setup.sh\n'}
+[1.666047] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/local_setup.zsh\n'}
+[1.666215] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/local_setup.dsv\n'}
+[1.666466] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Installing: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.dsv\n'}
+[1.666645] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/ament_index/resource_index/packages/rob599_hw2_msgs\n'}
+[1.666851] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_generator_cExport.cmake\n'}
+[1.667049] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.667271] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.667596] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.667735] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.667871] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.668048] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.668224] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.668389] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.668530] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.668808] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.669053] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.669284] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.669505] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.669807] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.670061] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.670315] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/export_rob599_hw2_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.670617] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.670903] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.671355] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.672288] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.673052] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.673572] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.674559] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.675047] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgsConfig.cmake\n'}
+[1.675900] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/cmake/rob599_hw2_msgsConfig-version.cmake\n'}
+[1.676140] (rob599_hw2_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/chelse/ros2_ws/install/rob599_hw2_msgs/share/rob599_hw2_msgs/package.xml\n'}
+[1.676859] (rob599_hw2_msgs) CommandEnded: {'returncode': 0}
+[1.709075] (-) TimerEvent: {}
+[1.809815] (-) TimerEvent: {}
+[1.911570] (-) TimerEvent: {}
+[2.012045] (-) TimerEvent: {}
+[2.078578] (rob599_hw3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rob599_hw3', 'build', '--build-base', '/home/chelse/ros2_ws/build/rob599_hw3/build', 'install', '--record', '/home/chelse/ros2_ws/build/rob599_hw3/install.log', '--single-version-externally-managed'], 'cwd': '/home/chelse/ros2_ws/src/rob599_hw3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chelse', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chelse', 'OLDPWD': '/home/chelse', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2356', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chelse/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chelse', '_': '/home/chelse/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chelse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chelse-G5-5587:@/tmp/.ICE-unix/2325,unix/chelse-G5-5587:/tmp/.ICE-unix/2325', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e9b3bf7_72d5_42dc_80d9_71a0ac7b6603', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8RC5J2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.236', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chelse/ros2_ws/install/rob599_hw3:/home/chelse/ros2_ws/install/rob599_hw2:/home/chelse/ros2_ws/install/rob599_hw2_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chelse/ros2_ws/build/rob599_hw3', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chelse/ros2_ws/build/rob599_hw3/prefix_override:/home/chelse/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chelse/ros2_ws/install/rob599_hw2_msgs'}, 'shell': False}
+[2.112147] (-) TimerEvent: {}
+[2.213086] (-) TimerEvent: {}
+[2.313482] (-) TimerEvent: {}
+[2.413902] (-) TimerEvent: {}
+[2.433588] (rob599_hw2_msgs) JobEnded: {'identifier': 'rob599_hw2_msgs', 'rc': 0}
+[2.435932] (rob599_hw2) JobStarted: {'identifier': 'rob599_hw2'}
+[2.514126] (-) TimerEvent: {}
+[2.614882] (-) TimerEvent: {}
+[2.639703] (rob599_hw3) StdoutLine: {'line': b'running egg_info\n'}
+[2.641650] (rob599_hw3) StdoutLine: {'line': b'writing ../../build/rob599_hw3/rob599_hw3.egg-info/PKG-INFO\n'}
+[2.642361] (rob599_hw3) StdoutLine: {'line': b'writing dependency_links to ../../build/rob599_hw3/rob599_hw3.egg-info/dependency_links.txt\n'}
+[2.642926] (rob599_hw3) StdoutLine: {'line': b'writing entry points to ../../build/rob599_hw3/rob599_hw3.egg-info/entry_points.txt\n'}
+[2.643381] (rob599_hw3) StdoutLine: {'line': b'writing requirements to ../../build/rob599_hw3/rob599_hw3.egg-info/requires.txt\n'}
+[2.643805] (rob599_hw3) StdoutLine: {'line': b'writing top-level names to ../../build/rob599_hw3/rob599_hw3.egg-info/top_level.txt\n'}
+[2.649532] (rob599_hw3) StdoutLine: {'line': b"reading manifest file '../../build/rob599_hw3/rob599_hw3.egg-info/SOURCES.txt'\n"}
+[2.651589] (rob599_hw3) StdoutLine: {'line': b"writing manifest file '../../build/rob599_hw3/rob599_hw3.egg-info/SOURCES.txt'\n"}
+[2.652060] (rob599_hw3) StdoutLine: {'line': b'running build\n'}
+[2.652264] (rob599_hw3) StdoutLine: {'line': b'running build_py\n'}
+[2.652804] (rob599_hw3) StdoutLine: {'line': b'running install\n'}
+[2.653267] (rob599_hw3) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.653539] (rob599_hw3) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.653888] (rob599_hw3) StdoutLine: {'line': b'running install_lib\n'}
+[2.656958] (rob599_hw3) StdoutLine: {'line': b'running install_data\n'}
+[2.658452] (rob599_hw3) StdoutLine: {'line': b'copying launch/turtlebot3_slam_launch.py -> /home/chelse/ros2_ws/install/rob599_hw3/share/rob599_hw3/launch\n'}
+[2.658919] (rob599_hw3) StdoutLine: {'line': b'copying launch/turtlebot3_nav_launch.py -> /home/chelse/ros2_ws/install/rob599_hw3/share/rob599_hw3/launch\n'}
+[2.659364] (rob599_hw3) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.663590] (rob599_hw3) StdoutLine: {'line': b"removing '/home/chelse/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.664533] (rob599_hw3) StdoutLine: {'line': b'Copying ../../build/rob599_hw3/rob599_hw3.egg-info to /home/chelse/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3-0.0.0-py3.10.egg-info\n'}
+[2.666747] (rob599_hw3) StdoutLine: {'line': b'running install_scripts\n'}
+[2.710326] (rob599_hw3) StdoutLine: {'line': b'Installing places script to /home/chelse/ros2_ws/install/rob599_hw3/lib/rob599_hw3\n'}
+[2.710836] (rob599_hw3) StdoutLine: {'line': b'Installing places_client script to /home/chelse/ros2_ws/install/rob599_hw3/lib/rob599_hw3\n'}
+[2.711628] (rob599_hw3) StdoutLine: {'line': b"writing list of installed files to '/home/chelse/ros2_ws/build/rob599_hw3/install.log'\n"}
+[2.715102] (-) TimerEvent: {}
+[2.815665] (-) TimerEvent: {}
+[2.916182] (-) TimerEvent: {}
+[3.016718] (-) TimerEvent: {}
+[3.117173] (-) TimerEvent: {}
+[3.217647] (-) TimerEvent: {}
+[3.307625] (rob599_hw3) CommandEnded: {'returncode': 0}
+[3.317783] (-) TimerEvent: {}
+[3.410854] (rob599_hw3) JobEnded: {'identifier': 'rob599_hw3', 'rc': 0}
+[3.417933] (-) TimerEvent: {}
+[3.518311] (-) TimerEvent: {}
+[3.618735] (-) TimerEvent: {}
+[3.719143] (-) TimerEvent: {}
+[3.819518] (-) TimerEvent: {}
+[3.919880] (-) TimerEvent: {}
+[4.008868] (rob599_hw2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rob599_hw2', 'build', '--build-base', '/home/chelse/ros2_ws/build/rob599_hw2/build', 'install', '--record', '/home/chelse/ros2_ws/build/rob599_hw2/install.log', '--single-version-externally-managed'], 'cwd': '/home/chelse/ros2_ws/src/rob599_hw2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chelse', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chelse/ros2_ws/install/rob599_hw2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chelse', 'OLDPWD': '/home/chelse', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2356', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chelse/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chelse', '_': '/home/chelse/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chelse', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chelse/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chelse-G5-5587:@/tmp/.ICE-unix/2325,unix/chelse-G5-5587:/tmp/.ICE-unix/2325', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e9b3bf7_72d5_42dc_80d9_71a0ac7b6603', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8RC5J2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.236', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chelse/ros2_ws/install/rob599_hw3:/home/chelse/ros2_ws/install/rob599_hw2:/home/chelse/ros2_ws/install/rob599_hw2_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chelse/ros2_ws/build/rob599_hw2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chelse/ros2_ws/build/rob599_hw2/prefix_override:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages:/home/chelse/ros2_ws/install/rob599_hw2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chelse/ros2_ws/install/rob599_hw2_msgs'}, 'shell': False}
+[4.019989] (-) TimerEvent: {}
+[4.120483] (-) TimerEvent: {}
+[4.220839] (-) TimerEvent: {}
+[4.321205] (-) TimerEvent: {}
+[4.411496] (rob599_hw2) StdoutLine: {'line': b'running egg_info\n'}
+[4.412899] (rob599_hw2) StdoutLine: {'line': b'writing ../../build/rob599_hw2/rob599_hw2.egg-info/PKG-INFO\n'}
+[4.413327] (rob599_hw2) StdoutLine: {'line': b'writing dependency_links to ../../build/rob599_hw2/rob599_hw2.egg-info/dependency_links.txt\n'}
+[4.413767] (rob599_hw2) StdoutLine: {'line': b'writing entry points to ../../build/rob599_hw2/rob599_hw2.egg-info/entry_points.txt\n'}
+[4.414113] (rob599_hw2) StdoutLine: {'line': b'writing requirements to ../../build/rob599_hw2/rob599_hw2.egg-info/requires.txt\n'}
+[4.414627] (rob599_hw2) StdoutLine: {'line': b'writing top-level names to ../../build/rob599_hw2/rob599_hw2.egg-info/top_level.txt\n'}
+[4.417855] (rob599_hw2) StdoutLine: {'line': b"reading manifest file '../../build/rob599_hw2/rob599_hw2.egg-info/SOURCES.txt'\n"}
+[4.419436] (rob599_hw2) StdoutLine: {'line': b"writing manifest file '../../build/rob599_hw2/rob599_hw2.egg-info/SOURCES.txt'\n"}
+[4.419940] (rob599_hw2) StdoutLine: {'line': b'running build\n'}
+[4.420320] (rob599_hw2) StdoutLine: {'line': b'running build_py\n'}
+[4.421097] (rob599_hw2) StdoutLine: {'line': b'running install\n'}
+[4.421592] (-) TimerEvent: {}
+[4.422056] (rob599_hw2) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.422393] (rob599_hw2) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.422704] (rob599_hw2) StdoutLine: {'line': b'running install_lib\n'}
+[4.425417] (rob599_hw2) StdoutLine: {'line': b'running install_data\n'}
+[4.426818] (rob599_hw2) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.429447] (rob599_hw2) StdoutLine: {'line': b"removing '/home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages/rob599_hw2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.430130] (rob599_hw2) StdoutLine: {'line': b'Copying ../../build/rob599_hw2/rob599_hw2.egg-info to /home/chelse/ros2_ws/install/rob599_hw2/lib/python3.10/site-packages/rob599_hw2-0.0.0-py3.10.egg-info\n'}
+[4.431663] (rob599_hw2) StdoutLine: {'line': b'running install_scripts\n'}
+[4.467382] (rob599_hw2) StdoutLine: {'line': b'Installing nasa script to /home/chelse/ros2_ws/install/rob599_hw2/lib/rob599_hw2\n'}
+[4.468025] (rob599_hw2) StdoutLine: {'line': b'Installing nasa_client script to /home/chelse/ros2_ws/install/rob599_hw2/lib/rob599_hw2\n'}
+[4.468517] (rob599_hw2) StdoutLine: {'line': b'Installing speed_limiter script to /home/chelse/ros2_ws/install/rob599_hw2/lib/rob599_hw2\n'}
+[4.468892] (rob599_hw2) StdoutLine: {'line': b'Installing speed_publisher script to /home/chelse/ros2_ws/install/rob599_hw2/lib/rob599_hw2\n'}
+[4.469320] (rob599_hw2) StdoutLine: {'line': b'Installing twist_tester script to /home/chelse/ros2_ws/install/rob599_hw2/lib/rob599_hw2\n'}
+[4.469903] (rob599_hw2) StdoutLine: {'line': b"writing list of installed files to '/home/chelse/ros2_ws/build/rob599_hw2/install.log'\n"}
+[4.502341] (rob599_hw2) CommandEnded: {'returncode': 0}
+[4.522271] (-) TimerEvent: {}
+[4.589913] (rob599_hw2) JobEnded: {'identifier': 'rob599_hw2', 'rc': 0}
+[4.592145] (-) EventReactorShutdown: {}

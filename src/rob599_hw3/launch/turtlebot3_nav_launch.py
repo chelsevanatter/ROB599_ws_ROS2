@@ -1,7 +1,7 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import IncludeLaunchDescription
 from launch_ros.substitutions import FindPackageShare
+from launch.actions import IncludeLaunchDescription, SetEnvironmentVariable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 from ament_index_python.packages import get_package_share_directory
@@ -10,10 +10,11 @@ import os
 
 def generate_launch_description():
     # Define the path to your custom map using FindPackageShare
-
     custom_map_path = '/home/chelse/ros2_ws/src/rob599_hw3/resources/map.yaml'
 
     return LaunchDescription([
+        # Set the Turtlebot 3 model environment variable
+        SetEnvironmentVariable('TURTLEBOT3_MODEL', 'burger'),
 
         # Start the Turtlebot 3 simulation in Gazebo.
         IncludeLaunchDescription(
@@ -24,8 +25,8 @@ def generate_launch_description():
                 )
             ]),
             launch_arguments={
-                'x_pose': '2.5',
-                'y_pose': '5.5'
+                'x_pose': '1.5',
+                'y_pose': '-1.5'
             }.items()
         ),
 
@@ -53,6 +54,6 @@ def generate_launch_description():
             executable='static_transform_publisher',
             name='static_transform_publisher_map_odom',
             output='screen',
-            arguments=['2.5', '5.5', '0', '0', '0', '0', '1', 'map', 'odom']
+            arguments=['1.5', '-1.5', '0', '0', '0', '0', '1', 'map', 'odom']
              ),
     ])
