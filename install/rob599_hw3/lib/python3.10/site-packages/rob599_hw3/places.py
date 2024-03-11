@@ -125,35 +125,42 @@ class PlacesNode(Node):
     def publish_markers(self):
         marker_array = MarkerArray()
         for name, pose in self.positions.items():
-            position_marker = Marker()
-            position_marker.header.frame_id = 'map'
-            position_marker.type = Marker.SPHERE
-            position_marker.action = Marker.ADD
-            position_marker.scale.x = 0.5
-            position_marker.scale.y = 0.5
-            position_marker.scale.z = 0.5
-            position_marker.color.r = 0.0
-            position_marker.color.g = 1.0
-            position_marker.color.b = 0.0
-            position_marker.color.a = 1.0
-            position_marker.pose = pose.pose
-            marker_array.markers.append(position_marker)
+            # Publish arrow marker
+            arrow_marker = Marker()
+            arrow_marker.header.frame_id = 'map'
+            arrow_marker.type = Marker.ARROW
+            arrow_marker.action = Marker.ADD
+            arrow_marker.pose = pose.pose
+            arrow_marker.scale.x = 0.3
+            arrow_marker.scale.y = 0.1
+            arrow_marker.scale.z = 0.1
+            arrow_marker.color.r = 0.0
+            arrow_marker.color.g = 1.0
+            arrow_marker.color.b = 1.0
+            arrow_marker.color.a = 1.0
+            arrow_marker.id = len(marker_array.markers)
+            marker_array.markers.append(arrow_marker)
 
+            # Publish text marker
             text_marker = Marker()
             text_marker.header.frame_id = 'map'
             text_marker.type = Marker.TEXT_VIEW_FACING
             text_marker.action = Marker.ADD
-            text_marker.scale.z = 0.5
+            text_marker.pose.position = pose.pose.position
+            text_marker.pose.position.z += 0.2  # Adjust height for visibility
+            text_marker.pose.orientation.w = 1.0
+            text_marker.scale.z = 0.5  # Text size
             text_marker.color.r = 0.0
             text_marker.color.g = 0.0
             text_marker.color.b = 0.0
             text_marker.color.a = 1.0
-            text_marker.pose.position = pose.pose.position
-            text_marker.pose.orientation.w = 1.0
             text_marker.text = name
+            text_marker.id = len(marker_array.markers)
             marker_array.markers.append(text_marker)
 
+        # Publish the marker array
         self.marker_publisher.publish(marker_array)
+
 
     def clear_markers(self):
         marker_array = MarkerArray()
